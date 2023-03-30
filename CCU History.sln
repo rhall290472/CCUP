@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CCU History", "CCU History\CCU History.vcxproj", "{CD02ACF8-0670-493D-A233-7A7B1BB657CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD02ACF8-0670-493D-A233-7A7B1BB657CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD02ACF8-0670-493D-A233-7A7B1BB657CD}.Debug|Win32.Build.0 = Debug|Win32
+		{CD02ACF8-0670-493D-A233-7A7B1BB657CD}.Release|Win32.ActiveCfg = Release|Win32
+		{CD02ACF8-0670-493D-A233-7A7B1BB657CD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9374A78A-3514-436F-B931-71ED74A99186}
+	EndGlobalSection
+EndGlobal

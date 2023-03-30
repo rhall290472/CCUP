@@ -1,0 +1,3279 @@
+******************************************************
+*                SIM_DGN.DAT                         *                     
+* EYE and CCU Simulator Error Messsage data base     *
+******************************************************
+* 'Projet CCU and EYE V4.0                           *
+* 'Date April 23 92                                  *
+* 'System OSU (73)                                   *
+*                                                    *
+* Consult OSU or the I.S. before modifying this file *
+*                                                    *
+******************************************************
+*
+DIAG_BEGIN
+*               sl  pg   seg  off   wo  app  clk  sys
+*  06  FC-A602A4 02  0000 0000 0000  01  ARI  YES  A
+*  06  FC-A602A4 03  0000 0000 0000  01  ARI  YES  A
+*  06  FC-A602A4 04  0000 0000 0000  01  ARI  YES  A
+*  06  FC-A602A4 05  0000 0000 0000  01  ARI  YES  A
+*  06  FC-A602A4 06  0000 0000 0000  01  ARI  YES  A
+*  06  FC-A602A4 07  0000 0000 0000  01  ARI  YES  A
+*  06  FC-A602A4 08  0000 0000 0000  01  ARI  YES  A
+*  07  FC-A602A4 09  0000 0000 0000  01  ARI  YES  A
+*  07  FC-A602A4 0A  0000 0000 0000  01  ARI  YES  A
+*  07  FC-A602A4 0B  0000 0000 0000  01  ARI  YES  A
+*  07  FC-A602A4 0C  0000 0000 0000  01  ARI  YES  A
+*  07  FC-A602A4 0D  0000 0000 0000  01  ARI  YES  A
+*
+*****  SOUND/AUDIO INTERFACE  *****
+*
+*               SL  PG   SEG  OFF   WO  APP  CLK  SYS
+*
+******SLOT=02 SPC-1
+*
+  0C  F2A5      02  0001 8200 1E0C  06  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1C80  01  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1CC0  01  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1DA0  02  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1F80  04  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1E18  03  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1E1E  05  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1E2C  01  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1D82  01  AUD  NO   B          
+  0C  F2A5      02  0001 8200 1D90  02  AUD  NO   B          
+  0C  F2A5      02  0001 8200 188E  01  AUD  NO   B          
+*
+******SLOT=03 SPC-2
+*
+  0C  F2A5      03  0001 8400 1E0C  06  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1C80  01  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1CC0  01  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1DA0  02  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1F80  04  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1E18  03  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1E1E  05  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1E2C  01  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1D82  01  AUD  NO   B          
+  0C  F2A5      03  0001 8400 1D90  02  AUD  NO   B          
+*
+******SLOT=04 SPC-3
+*
+* 0C  F2A1      04  0001 8600 1E0C  06  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1C80  01  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1CC0  01  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1DA0  02  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1F80  04  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1E18  03  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1E1E  05  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1E2C  01  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1D82  01  AUD  NO   B          
+* 0C  F2A1      04  0001 8600 1D90  02  AUD  NO   B          
+*
+******SLOT=05 DVPLAY
+*
+  0C  F2A5      05  0001 8800 1E0C  06  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1C80  01  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1CC0  01  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1DA0  02  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1F80  04  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1E18  03  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1E1E  05  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1E2C  01  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1028  01  AUD  NO   B          
+  0C  F2A5      05  0001 8800 1F10  04  AUD  NO   B          
+*
+******SLOT=06 FILTER
+*
+  0C  F2A5      06  0001 8A00 1E0C  06  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1C80  01  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1CC0  01  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1DA0  02  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1F80  04  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1E18  03  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1E1E  05  AUD  NO   B          
+  0C  F2A5      06  0001 8A00 1E2C  01  AUD  NO   B          
+*
+******SLOT=07 VAE-1
+*
+* 0C  F2A5      07  0001 8C00 1E0C  06  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1C80  01  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1CC0  01  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1DA0  02  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1F80  04  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1E18  03  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1E1E  05  AUD  NO   B          
+* 0C  F2A5      07  0001 8C00 1E2C  01  AUD  NO   B          
+*
+******SLOT=08 NOISE 
+*
+  0C  F2A5      08  0001 8E00 1E0C  06  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1C80  01  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1CC0  01  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1DA0  02  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1F80  04  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1E18  03  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1E1E  05  AUD  NO   B          
+  0C  F2A5      08  0001 8E00 1E2C  01  AUD  NO   B          
+*
+******SLOT=10 KEYER 
+*
+  0C  F2A5      0A  0001 9200 1E0C  06  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1C80  01  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1CC0  01  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1DA0  02  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1F80  04  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1E18  03  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1E1E  05  AUD  NO   B          
+  0C  F2A5      0A  0001 9200 1E2C  01  AUD  NO   B          
+*
+******SLOT=11 SIGNAL
+*
+  0C  F2A5      0B  0001 9400 1E0C  06  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1C80  01  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1CC0  01  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1DA0  02  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1F80  04  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1E18  03  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1E1E  05  AUD  NO   B          
+  0C  F2A5      0B  0001 9400 1E2C  01  AUD  NO   B          
+*
+******SLOT=12 GENMIX-1
+*
+  0C  F2A5      0C  0001 9600 1E0C  06  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1C80  01  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1CC0  01  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1DA0  02  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1F80  04  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1E18  03  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1E1E  05  AUD  NO   B          
+  0C  F2A5      0C  0001 9600 1E2C  01  AUD  NO   B          
+*
+******SLOT=13 GENMIX-2
+*
+  0C  F2A5      0D  0001 9800 1E0C  06  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1C80  01  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1CC0  01  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1DA0  02  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1F80  04  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1E18  03  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1E1E  05  AUD  NO   B          
+  0C  F2A5      0D  0001 9800 1E2C  01  AUD  NO   B          
+*
+******SLOT=14 VOIMIX-1
+*
+  0C  F2A5      0E  0001 9A00 1E0C  06  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1C80  01  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1CC0  01  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1DA0  02  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1F80  04  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1E18  03  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1E1E  05  AUD  NO   B          
+  0C  F2A5      0E  0001 9A00 1E2C  01  AUD  NO   B          
+*
+******SLOT=15 VOIMIX-2
+*
+  0C  F2A5      0F  0001 9C00 1E0C  06  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1C80  01  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1CC0  01  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1DA0  02  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1F80  04  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1E18  03  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1E1E  05  AUD  NO   B          
+  0C  F2A5      0F  0001 9C00 1E2C  01  AUD  NO   B          
+*
+******SLOT=16 DISMIX-1
+*
+  0C  F2A5      10  0001 9E00 1E0C  06  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1C80  01  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1CC0  01  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1DA0  02  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1F80  04  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1E18  03  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1E1E  05  AUD  NO   B          
+  0C  F2A5      10  0001 9E00 1E2C  01  AUD  NO   B          
+*
+******SLOT=17 DISMIX-2
+*
+  0C  F2A5      11  0001 A000 1E0C  06  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1C80  01  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1CC0  01  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1DA0  02  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1F80  04  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1E18  03  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1E1E  05  AUD  NO   B          
+  0C  F2A5      11  0001 A000 1E2C  01  AUD  NO   B          
+*
+******SLOT=18 DVRECO   
+*
+  0C  F2A5      12  0001 A200 1E0C  06  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1C80  01  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1CC0  01  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1DA0  02  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1F80  04  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1E18  03  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1E1E  05  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1E2C  01  AUD  NO   B          
+  0C  F2A5      12  0001 A200 1F10  01  AUD  NO   B          
+*
+******SLOT=19 MIXER-3
+*
+  0C  F2A5      13  0001 A400 1E0C  06  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1C80  01  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1CC0  01  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1DA0  02  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1F80  04  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1E18  03  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1E20  04  SOU  NO   B     
+  0C  F2A5      13  0001 A400 1E2C  01  SOU  NO   B     
+*
+******SLOT=20 MIXER-2
+*
+  0C  F2A5      14  0001 A600 1E0C  06  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1C80  01  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1CC0  01  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1DA0  02  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1F80  04  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1E18  03  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1E20  04  SOU  NO   B     
+  0C  F2A5      14  0001 A600 1E2C  01  SOU  NO   B     
+*
+******SLOT=21 MIXER-1
+*
+  0C  F2A5      15  0001 A800 1E0C  06  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1C80  01  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1CC0  01  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1DA0  02  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1F80  04  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1E18  03  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1E20  04  SOU  NO   B     
+  0C  F2A5      15  0001 A800 1E2C  01  SOU  NO   B     
+*
+******SLOT=22 NOISE-1
+*
+  0C  F2A5      16  0001 AA00 1E0C  06  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1C80  01  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1CC0  01  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1DA0  02  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1F80  04  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1E18  03  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1E20  04  SOU  NO   B     
+  0C  F2A5      16  0001 AA00 1E2C  01  SOU  NO   B     
+*
+******SLOT=23 IMPACT-1
+*
+  0C  F2A5      17  0001 AC00 1E0C  06  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1C80  01  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1CC0  01  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1DA0  02  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1F80  04  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1E18  03  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1E20  04  SOU  NO   B     
+  0C  F2A5      17  0001 AC00 1E2C  01  SOU  NO   B     
+*
+******SLOT=24 SLAP-1
+*
+  0C  F2A5      18  0001 AE00 1E0C  06  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1C80  01  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1CC0  01  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1DA0  02  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1F80  04  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1E18  03  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1E20  04  SOU  NO   B     
+  0C  F2A5      18  0001 AE00 1E2C  01  SOU  NO   B     
+*
+******SLOT=25 TONE-1
+*
+  0C  F2A5      19  0001 B000 1E0C  06  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1C80  01  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1CC0  01  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1DA0  02  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1F80  04  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1E18  03  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1E20  04  SOU  NO   B     
+  0C  F2A5      19  0001 B000 1E2C  01  SOU  NO   B     
+*
+******************************************************
+*    WEATHER RADAR SECTION
+******************************************************
+*
+*  0B  L604A2 05  0005 7000 0500  09  WXR  YES  A
+*
+DIAG_END
+*
+*************************************************************
+*   THIS IS THE START OF THE IOS SECTION                    *
+*************************************************************
+*
+* IOS ERROR MESSAGES
+*
+:IOS:
+0001 TE:Remote %d: EAS failed %d
+0002 TE:Remote %d: EAS error in packet %d
+0003 TE:Remote %d: RTMS connect error %#x 
+0004 TE:Remote %d: EAS connect error %#x %s
+0005 TE:Remote %d: service common error %d
+0006 TE:Remote %d: EAS error sending %d - %d
+0007 TE:Remote %d: service XO error %d
+0008 TE:Remote %d: Cannot open EAS_DAT file
+0009 TE:Remote %d: No more transfer slots available
+*
+000a XZ:Remote %d: host not detecting comm with remote %d
+*
+000b HLP:Remote %d: ICHELP_GRA file not found
+000c HLP:Remote %d: MLFHELP_GRA file not found
+*
+000d XI:Remote %d: Unsupported DCB type %d
+000e XI:Remote %d: Unsupported DCB type for malf page %d
+*
+000f XODT:Remote %d: cannot transfer hardcopy dump file %x
+0010 XODT:Remote %d: cannot transfer page edit file to stn %x
+*
+0011 XODU:Remote %d: cannot initiate file transfer
+0012 XODU:Remote %d: failed to complete file transfer
+*
+0013 XO:Remote %d: could not get memory for page %d
+0014 XO:Remote %d: value table too small for page %d
+0015 XO:Remote %d: could not open the page file %x
+0016 XO:Remote %d: could not allocate memory for page directory
+*
+0017 TA:Remote %d: ILS buffer overflow
+0018 TA:Remote %d: NPA buffer overflow
+0019 TA:Remote %d: Runway plot overflow
+001a TA:Remote %d: Take off plot overflow
+*
+001b TD:Remote %d: table overflow not supported
+*
+001c TG:Remote %d: bad dp list instr %x in lost %x at address %x
+001d TG:Remote %d: could not find all fonts
+*
+001e TM:Remote %d: DL overflow reg: %d stn: %d did: %d
+001f TM:Remote %d: could not open TRZ.DAT
+*
+0020 TO:Remote %d: touch screen hardware failed to install
+* 
+0021 XT:Remote %d: could not open tigers data file
+*
+0022 EL:Cannot open EL page file
+0023 EL:Cannot communicate with device no. %d
+* 
+0024 PCU:Cannot open PCU page file
+0025 PCU:Cannot communicate with PCU device
+*
+0026 XM:Malf Summary: cannot open xm.dat
+0027 XO:Remote %d: Page does not exist %d
+*
+:END:
+*
+******************************************************
+*    Sound and Audio Error Messages
+******************************************************
+*
+:SOU:
+0010 %s DMC:%x Slot:A%d Sound not downloaded correctly
+0020 %s DMC:%x Slot:A%d Sound Firmware not running
+* 8020 %s DMC:%x Slot:A%d Sound Firmware running OK
+0040 %s DMC:%x Slot:A%d TSD Bus error on control lines
+0041 %s DMC:%x Slot:A%d Mask:%x TSD Bus error on data lines
+0050 Sound module is frozen (Being skipped)
+* 8050 Sound module restored to normal operation
+0060 Sound volume muted on all channels
+* 8060 Sound volume normal OK
+:SOU_X:
+0001 <A>
+0002 <B>
+0003 <C>
+0004 <D>
+:END:
+:AOS:
+0202 %s DMC:%x Slot:%d%s DSP:%x -> DSP not responds to Host cmd
+8202 %s DMC:%x Slot:%d%s DSP:%x -> DSP now responds to Host cmd OK
+0210 %s DMC:%x Slot:%d%s -> SIO44 in diagnostic mode
+8210 %s DMC:%x Slot:%d%s -> SIO44 in normal mode, OK
+0211 %s DMC:%x Slot:%d%s -> SIO44 in firmware ctl mode
+8211 %s DMC:%x Slot:%d%s -> SIO44 in host ctl mode, OK
+0220 %s DMC:%x Slot:%d%s Dsp:%x Iter:%d -> Diagnostic task counter stuck
+8220 %s DMC:%x Slot:%d%s Dsp:%x -> Diagnostic task counter OK
+0221 %s DMC:%x Slot:%d%s Dsp:%x Iter:%d -> Foreground task counter stuck
+8221 %s DMC:%x Slot:%d%s Dsp:%x -> Foreground task counter OK
+0222 %s DMC:%x Slot:%d%s DSP:%x Iteration:%d -> Foreground task overrun
+0223 %s DMC:%x Slot:%d%s DSP:%x -> Refresh counter has stop
+8223 %s DMC:%x Slot:%d%s DSP:%x -> Refresh counter OK 
+0224 %s DMC:%x Slot:%d%s Dsp:%x Iter:%d -> Refresh counter overrun
+0250 %s DMC:%x Slot:%d%s DSP:%x Fct:%x Error:%x -> Fgnd function error
+8250 %s DMC:%x Slot:%d%s DSP:%x Fct:%x Error:%x -> fct. error, CLEARED
+0251 %s DMC:%x Slot:%d%s DSP:%x Fct:%x Error:%x -> Fgnd function error
+8251 %s DMC:%x Slot:%d%s DSP:%x Fct:%x Error:%x -> fct. error, CLEARED
+0252 %s DMC:%x Slot:%d%s DSP:%x Fct:%x Error:%x -> Fgnd function error
+8252 %s DMC:%x Slot:%d%s DSP:%x Fct:%x Error:%x -> fct. error, CLEARED
+0262 %s DMC:%x Slot:%d%s DSP:%x -> Foreground timing error
+0263 %s DMC:%x Slot:%d%s DSP:%x -> H/W error; External bus data line
+0264 %s DMC:%x Slot:%d%s DSP:%x -> DMA %d is holding the system
+0265 %s DMC:%x Slot:%d%s DSP:%x -> Invalid Configuration data
+0270 %s DMC:%x Slot:%d%s DSP:%x -> COMM port %d invalid error detected
+0271 %s DMC:%x Slot:%d%s DSP:%x -> COMM port %d not connected error
+0272 %s DMC:%x Slot:%d%s DSP:%x -> COMM port %d halted error detected
+0273 %s DMC:%x Slot:%d%s DSP:%x -> COMM port %d data error
+0280 %s DMC:%x Slot:%d%s DSP:%x -> TSD INPUT port, Error on data
+0281 %s DMC:%x Slot:%d%s DSP:%x -> TSD INPUT port, Ready line hold
+0282 %s DMC:%x Slot:%d%s DSP:%x -> TSD OUTPUT port, Error on data 
+0283 %s DMC:%x Slot:%d%s DSP:%x -> TSD OUTPUT port, Ready line hold
+0284 %s DMC:%x Slot:%d%s DSP:%x -> TSD INPUT port, Write Full or Read empty
+0285 %s DMC:%x Slot:%d%s DSP:%x -> TSD OUTPUT port, Write Full or Read empty
+0286 %s DMC:%x Slot:%d%s DSP:%x -> TSD INPUT port, Last slot sync loss detected
+0287 %s DMC:%x Slot:%d%s DSP:%x -> TSD OUTPUT port, Last slot sync loss detected
+0290 %s DMC:%x Iteration:%d -> Input frame was lost
+0291 %s DMC:%x Iteration:%d -> Output frame was lost
+0292 %s DMC:%x Slot:%d%s -> DASS running firmware V%x.%x
+0293 %s DMC:%x Slot:%d%s -> Refresh counter not incrementing
+8293 %s DMC:%x Slot:%d%s -> Refresh counter now incrementing
+0300 %s DMC:%x Slot:%d%s DSP:%x -> Error BIT:%x, Ext input TSD port
+0301 %s DMC:%x Slot:%d%s DSP:%x -> Error BIT:%x, Ext input COMM port
+0302 %s DMC:%x Slot:%d%s DSP:%x -> Error BIT:%x, Int input COMM port
+:AOS_X:
+0001 <A>
+0002 <B>
+0003 <C>
+0004 <D>
+:AOS_Y:
+0001 /AUDIO
+0002 /SOUND
+0003 /ALL AUD
+0004 /ALL SND
+0005 /ALL
+:END:
+:AUD:
+* 8101 %s DMC:%x Slot:A%d Audio in normal operation mode
+0101 %s DMC:%x Slot:A%d Audio in data acquisition mode
+0110 %s DMC:%x Slot:A%d Audio not downloaded correctly
+* 8120 %s DMC:%x Slot:A%d Audio Firmware running OK
+0120 %s DMC:%x Slot:A%d Audio Firmware not running
+0130 %s DMC:%x Slot:A%d SPC #%d -> DASIU #%d is off-line
+* 8130 %s DMC:%x Slot:A%d SPC #%d -> DASIU #%d back on-line OK
+0140 %s DMC:%x Slot:A%d TSD Bus error on control lines
+0141 %s DMC:%x Slot:A%d Mask:%x TSD Bus error on data lines
+0150 %s DMC:%x Slot:A%d SPC #%d sampling rate is inacurate
+0151 %s DMC:%x Slot:A%d SPC #%d serial port is disabled
+0152 %s DMC:%x Slot:A%d SPC #%d -> DASIU #%x not communicating
+0170 %s DMC:%x ETHERNET: %d input frames lost
+0171 %s DMC:%x ETHERNET: %d output frames lost
+0172 %s DMC:%x No input frames received for %d iterations
+0180 %s DMC:%x Digital voice play synchronization lost
+* 8180 %s DMC:%x Digital voice synchronization OK
+0190 Audio data transfer in progress
+* 8190 Audio data transfer completed OK
+:AUD_X:
+0001 <A>
+0002 <B>
+0003 <C>
+0004 <D>
+:END:
+*
+*
+******************************************************
+*    Standard interface Error Message
+******************************************************
+:ARI:
+4800 %s DMC:%x Slot:A%d Card not running
+:ARI_X:
+0001 <A>
+0002 <B>
+0003 <C>
+0004 <D>
+:END:
+******************************************************
+*    ARINC 629 Interface Error/Warning Messages
+******************************************************
+:AR6:
+*
+* Error messages
+*
+0100 %s DMC:%x Slot:A%d CPU2 not running
+0110 %s DMC:%x Slot:A%d CPU1 not running
+*
+* CPU1 warning messages
+*
+0310 %s DMC:%x Slot:A%d Invalid count in dma transfer
+0320 %s DMC:%x Slot:A%d No schedule to transfer
+0330 %s DMC:%x Slot:A%d Encoder buffer not ready
+*
+* CPU2 warning messages
+*
+0610 %s DMC:%x Slot:A%d Input buffer full
+0620 %s DMC:%x Slot:A%d Invalid host command
+0630 %s DMC:%x Slot:A%d Invalid count: %d for label 0x%x
+0640 %s DMC:%x Slot:A%d Unmapped label: 0x%x
+*
+* Rehost warning messages
+*
+7100 %s %s: Invalid 629 general header key (%x)
+7101 %s %s: Invalid 629 wordstring header key (%x)
+7102 %s %s: Invalid schedule index. Bus id: %d, 629 label: %x, status: %x.
+7103 %s %s: Lost ARINC 629 Host O/P packet. Received: %d, expected: %d.
+7104 %s %s: Overrun on ARINC 629 Host O/P data.
+7105 %s %s: An overrun of %d ms has been detected.
+7106 %s %s: Packet with an unknown command code (%d) received.
+7107 %s %s: Packet with invalid byte count (%d) received.
+7108 %s %s: Unexpected packet (%d,%d) received.
+7109 %s %s: Unrecognized command/subcode (%d,%d) combination.
+710a %s %s: Invalid CID-LABEL combination (%x) on 629 bus %d. Length: (%d).
+710b %s %s: Not all data transmitted on 629 bus %d.
+710c %s %s: Invalid type of 629 data: (%d)
+710d %s %s: Unknown CID-LABEL combination (%x) found in IOM %d.
+710e %s %s: Invalid CID-LABEL combination %x on terminal %d of IOM %d.
+711f %s %s: Unrecognized error code: >>> %x <<<
+*
+:AR6_X:
+0001 <A> 
+0002 <B> 
+0003 <C> 
+0004 <D> 
+:AR6_Y:
+0001 <IOM629>
+0002 <LEFT IOM>
+0003 <RIGHT IOM>
+0004 <486-CDU>
+:END:
+******************************************************
+*    Standard interface Error Message
+******************************************************
+:INT:
+0005 Invalid data in YERLOFMT label reset to 2
+5ffd %s Start of simulation
+5ff9 %s Host data not loaded
+5fff %s Concentrator switched from DMC:%x to DMC:%x
+5f00 %s Host-interface RV error Status:%d iter:%d
+5f01 %s Host-interface TX error Status:%d iter:%d
+5f02 %s Host-interface RV/TX error iter:%d
+5f03 %s Unknow Iteration error message
+5ff1 %s Host cannot establish communication with Interface 
+5ff3 %s Invalid control word in input frames 
+5ff6 %s No input frames received Iter:%d
+5ffb %s Standard input frame(s) were lost Iter:%d
+5ffc %s Arinc input frame(s) were lost Iter:%d
+5ffe %s Fatal error, concentrator(s) exhausted
+5f10 %s DMC:%x Non standard DMC off-line 
+5f11 %s DMC:%x Non standard DMC on-line
+5f12 %s DMC:%x Non standard DMC unknown state
+6003 %s DMC:%x Slave:A%d Chan:%x Dead label:%o
+6005 %s DMC:%x Slave:A%d Chan:%x Unmapped input label:%o
+6001 %s DMC:%x Slave:A%d Chan:%x Bad output DMA channnel
+6002 %s DMC:%x Slave:A%d Chan:%x Bad output channel
+6004 %s DMC:%x Slave:A%d Chan:%x Parity error
+6008 %s DMC:%x Slave:A%d Chan:%x Underflow of an input bus
+6009 %s DMC:%x Slave:A%d Chan:%x Overflow of an output bus
+6006 %s DMC:%x Slave:A%d Illegal interrupt
+6007 %s DMC:%x Slave:A%d Divide error
+600a %s DMC:%x Slave:A%d ARINC card is not running 
+600c %s DMC:%x ARINC output frame lost
+600d %s DMC:%x ARINC output frame corrupted
+600e %s DMC:%x ARINC frame queue is full
+8001 %s DMC:%x C-Bus:%x Slot:A%d C-Bus addr ok
+0001 %s DMC:%x C-Bus:%x Slot:A%d C-Bus %s
+0012 %s DMC:%x Slot:A%d C-Bus %s
+* 8101 %s DMC:%x SEG:%x PG:%x OFF:%x C-Bus mem addr ok
+0101 %s DMC:%x SEG:%x PG:%x OFF:%x C-Bus mem %s
+0003 %s DMC:%x Chassis off-line/on-line
+* 9004 %s DMC:%x Chassis on-line
+1004 %s DMC:%x Chassis off-line
+7002 %s DMC:%x Lost output frame number:%d
+7102 %s DMC:%x Overrun on output(s)
+7202 %s DMC:%x Overrun on input request(s)
+4000 %s %s DMC:%x C-Bus:%x Slot:A%d MASK:%x
+4001 %s %s DMC:%x C-Bus:%x Slot:A%d Dev:%f
+4002 %s %s DMC:%x C-Bus:%x Slot:A%d Deg:%f
+4003 %s DMC:%x +15 Inaccurate voltages
+4004 %s DMC:%x -15 Inaccurate voltages
+4005 %s DMC:%x +24 Inaccurate voltages
+:INT_X:
+0001 <A>
+0002 <B>
+0003 <C>
+0004 <D>
+:INT_Y:
+0000 data unknown
+0001 DOP
+0002 DIP
+0003 AOP
+0004 SOP
+0005 AIP
+0009 addr timeout
+000a data timeout
+000b mcr
+:END:
+*
+****************************
+*  IBM HOST ERROR MESSAGES
+****************************
+*
+:IBM:
+0001 Permanent SCSI adapter hardware error: 0502F666
+0002 Memory failure error: 069DB93B
+0003 Failed to write Volume group Status area error: 0C1EC9FA
+0004 Memory parity error: 0E017ED1
+0005 Bad block relocation relocation failure -PV on lon error: 0E37FE58
+0006 Data storage interrupt IOCC error: 27C1EFFF
+0007 Badisk seek fault error: 2D3BDDD6
+0008 Permanent integrated ethernet adapter error: 35BE4BC0
+0009 Adapter-detected physical volume failure error: 35BFC499
+000a Badisk recovered soft read error: 384E0485
+000b Memory card pair failure error: 3D858A1B
+000c Physical volume media error: 3DDB0A69
+000d Tape drive failure error: 476B351D
+000e Tape media error: 4865FA9B
+000f Machine check error: 4A29D32A
+0010 Tape SCSI adapter detected error: 5537AC5F
+0011 Badisk soft equipment check error: 627A4F55
+0012 Error during init of primary dump device error: 6297CA97
+0013 DSI_IOCC, error found on DMA completion error: 760470A6
+0014 Data storage interrupt SLA error: 76C9D063
+0015 Badisk hard read error: 770F9606
+0016 Memory card failure error: 77E0148A
+0017 Max retries during Bad block relocation error: 84917289
+0018 Physical volume recovered error: 8564E6B1
+0019 Physical volume hardware error: A668F553
+001a Hardware disk block relocation failed error: C67E7D0F
+001b A physical volume has been defined as missing error: CBE1D1A5
+001c Badisk hard equipment check error: CF4781D3
+001d Badisk attachment error: D2B9B5A9
+001e Bad block directory corrupted error: D62AAFD8
+001f Error during Bad block relocation error: DBF832FF
+0020 Printer unknown error: DFC508F5
+0021 recovered error threshold exceeded error: E64EC259
+0022 Attached SCSI target device error: EE18DF01
+0023 SCSI adapter detected error: C14C511C
+:END:
+*
+****************
+*  HOST ERRORS
+****************
+*
+:SIM:
+0001 CDB load failed
+0002 Computer CPU%x not communicating
+0003 DMC %x load failed
+0004 Process %s%xC%x aborted
+0005 Process %s%xC%x initialization failed
+0006 Host-Visual communication is OFF
+* 8006 Host-Visual communication is ON
+:SIM_X:
+0001 SP
+0002 AP
+:END:
+*
+*
+*****************************************************
+*                                                   *
+*    D N 1   E R R O R   M E S S A G E   L I S T    *
+*                                                   *
+*****************************************************
+:DN1:
+*
+*     DFCLIB error/warning messages
+*
+0001 DN1 I/O halted while re-load in progress
+0002 Load request while C/L or MOTION are still ON
+0003 DN1 I/O re-started
+0004 Resetting C/L and MOTION On/Off flags
+0005 DFC_INIT not executed
+0006 Invalid utility transfer node
+0007 Invalid utility request
+0008 Error transmitting buffer
+0009 Error receiving buffer
+000a Invalid read response
+000b Invalid command owner
+000c Destination utility is not open
+000d DN1 offline. Aborting DN1 I/O.
+000e Error finding logical cae_dfc_interface/CAE$DFC_INTERFACE
+000f DN1 I/O currently set to background mode
+0010 MOMDFC not completed successfully
+0011 DN1 I/O: Error initializing Ethernet
+0012 Error reading transfer definition
+0013 Error reading transfer list
+0014 Invalid utility request size
+0015 Invalid MOTION flag configuration
+0016 Error finding logical cae_dfc_database/CAE$DFC_DATABASE
+0017 Error finding logical cae_dfc_eth/CAE$DFC_ETH
+0018 Maximum opcode count exceeded
+0019 Maximum send count exceeded
+001a Maximum receive count exceeded
+001b Error in Ethernet shutdown
+001c Data checksum error, AB5-XA%d
+*
+*    Digital plotter
+*
+0080 CFPLOTA: Error finding logical cae_smp_vers/CAE$SMP_VERS
+0081 CFPLOTA: Error finding logical ios_display_*/IOS_DISPLAY_*
+0082 CFPLOTA: Error finding logical cfplot_ios_page/CFPLOT_IOS_PAGE
+0083 CFPLOTA: Error finding logical ios_display/IOS_DISPLAY
+0084 CFPLOTA: Error finding logical cae_dfclib_path
+*
+*     Cabinet error messages
+*
+0101 > HOST COMMUNICATION FAIL
+8101 > Host Communication Fail - Cleared
+0102 Host computer off line
+8102 Host computer off line - Cleared
+0103 > 5 VDC OUT OF RANGE : %s%s
+0104 > +15 VDC OUT OF RANGE : %s%s
+0105 > -15 VDC OUT OF RANGE : %s%s
+0106 5 VDC warning : %s%s
+0107 > NO RESPONSE FROM MCL DMC SERVER
+0108 > FPMC NOT INSTALLED IN SLOT AB5-XA%d
+0109 > FPMC FAILED IN SLOT AB5-XA%d
+010a > CARD NOT RESPONDING AT AB5-XA%d
+010b MCL DMC server not loaded
+010c MCL DMC server loading
+010d Warning: 12V battery pack voltage < 10V
+010e Warning: 12V battery pack voltage > 15V
+010f 24 VDC warning : %s%s
+0110 +15 VDC warning : %s%s
+0111 -15 VDC warning : %s%s
+0112 **** SYSTEM POWER-UP ****
+0113 > FIRE IN BUILDING
+0114 > NO RESPONSE FROM MCL DMC SERVER 2
+0115 MCL DMC server 2 not loaded
+0116 MCL DMC server 2 loading
+0117 > DEVICE READ/WRITE TIME-OUT : AB5-XA%d
+0118 > FPMC DATA CHECKSUM FAIL : AB5-XA%d
+0119 > FPMC CODE CHECKSUM FAIL : AB5-XA%d
+011a > FPMC MEMORY CHECK FAIL : AB5-XA%d
+011b > FPMC INTERNAL TIMER FAIL : AB5-XA%d
+011c > FPMC WRITE CONF TEST FAIL : AB5-XA%d
+011d > INVALID DEVICE LOAD ADDRESS : AB5-XA%d
+011e > DEVICE HOLD REQUEST FAIL : AB5-XA%d
+011f > DEVICE HALT REQUEST FAIL : AB5-XA%d
+0120 > FPMC INVALID READ SIZE : AB5-XA%d
+0121 > DEVICE NOT INSTALLED IN SLOT AB5-XA%d
+0122 > DEVICE FAILED IN SLOT AB5-XA%d
+0123 > NO RESPONSE FROM MCL DMC SERVER 1
+0124 MCL DMC server 1 not loaded
+0125 MCL DMC server 1 loading
+0126 Device read/write time-out : AB5-XA%d
+0127 > FPMC LOAD FAILURE : AB5-XA%d
+0128 > FPMC HALTED : AB5-XA%d
+0129 DN1 flow sensor warning
+*
+*
+*     Hydraulic error messages
+*
+0201 Oil temperature warning
+0202 HPU filter warning : %s%s
+8202 HPU filter warning : %s%s - Cleared
+0203 > UPPER OIL LEVEL SWITCH ACTIVATED
+0204 > LOWER OIL LEVEL SWITCH ACTIVATED
+0205 > OIL TEMPERATURE FAILURE
+0206 > HPU FILTER FAILURE : %s%s
+0207 > C/L 1100 PSI SW OR TRANSDUCER FAIL
+0208 > MOTION 600 PSI SW OR TRANSDUCER FAIL
+0209 > OIL TEMPERATURE SW OR TRANSDUCER FAIL
+020a > MOTOR RUNNING DIP FAILURE : %s%s
+020b > HYDRAULIC MOTOR FAILURE : %s%s
+020c > MOTOR START REQUEST TIME-OUT: %s%s
+020d > MOTOR STOP REQUEST TIME-OUT : %s%s
+020e Hydraulic maintenance mode active
+020f Motion->C/L cross-coupling sw activated
+0210 Alternate cooling not activated
+0211 > C/L 1350 PSI SW OR TRANSDUCER FAIL
+0212 > HYD SUPPLY VALVE CLOSED : %s%s
+0213 Hydraulic supply valve closed : %s%s
+0214 Motion->upper brg cross-coupling active
+0215 > GSYSTEM PRESSURE SW OR TRANSDUCER FAIL
+0216 Hydraulic hose valve closed : %s%s
+0217 > HYDRAULIC HOSE VALVE CLOSED : %s%s
+0218 Active alternate cooling switch
+8218 Active alternate cooling switch - Cleared
+0219 Oil temp transducer input out of range
+021a > MOTION 1100 PSI SW OR TRANSDUCER FAIL
+021b > MOTION 1350 PSI SW OR TRANSDUCER FAIL
+021c Flight compartment C/L filter warning
+021d > VIBR 1100 PSI SW OR TRANSDUCER FAIL
+021e > VIBR 1350 PSI SW OR TRANSDUCER FAIL
+021f Motion->vibration cross-coupling active
+0220 > C/L 850 PSI SW OR TRANSDUCER FAIL
+0221 > MOTOR ISOLATE SW ACTIVATED : %s%s
+0222 Motor isolate sw active : %s%s
+0223 > STARTER ENCLOSURE #1 CB OPEN
+0224 Starter enclosure #1 CB open
+0225 > STARTER ENCLOSURE #2 CB OPEN
+0226 Starter enclosure #2 CB open
+0227 > HPU SAFETY KEY AT ISOLATE POSITION
+0228 HPU safety key at isolate position
+0229 > HPU SUPPLY POWER OFF LINE
+022a HPU supply power off line
+022b > PUMP OVERLOAD : %s%s
+022c Pump overload DIP active : %s%s
+022d Low oil temperature warning
+022e > MOTION PRESSURE RETURN VALVE CLOSED
+022f Motion pressure return valve closed
+*
+*     Control loading error messages
+*
+0301 > FORCE INPUT TRANSIENT : %s%s
+0302 > POSITION INPUT TRANSIENT: %s%s
+0303 > BUFFER UNIT DISCONNECTED: %s%s
+0304 > SERVO AMPLIFIER FAULT : %s%s
+0305 > EXCESSIVE FORCE : %s%s
+0306 > EXCESSIVE FORCE*VELOCITY: %s%s
+0307 > EXCESSIVE POSITION ERROR: %s%s
+8307 > EXCESSIVE POSITION ERROR: %s%s - Cleared
+0308 > EXCESSIVE VELOCITY : %s%s
+0309 > BUFFER UNIT PWR FAILURE : %s%s
+030a > NEG. FORCE*VELOCITY FAIL: %s%s
+030b > FORWARD BUNGEE FAILURE : %s%s
+030c Undefined C/L error 12 : %s%s
+030d > ADIO FAILED IN SLOT AB5-XA%d
+030e > ADIO CARD ERROR : %s%s
+030f > VELOCITY INPUT TRANSIENT: %s%s
+0310 > BU STANDBY COMMAND FAIL : %s%s
+0311 > BU STBY/NORM DISAGREE : %s%s
+0312 > AMP FAULT / EPU DOOR OPEN: %s%s
+0313 > EXCESSIVE COMMAND FAIL : %s%s
+0314 > START UP FAILURE : %s%s
+0315 > EXCESSIVE VELOCITY ERROR: %s%s
+0316 > POSN INPUT WIRING FAIL : %s%s
+0317 > BU COMMAND WIRING FAIL : %s%s
+0318 > BU EXTERNAL POWER FAIL : %s%s
+0319 > BU CMPTR ITERATION FAIL : %s%s
+031a > EXCESSIVE CURRENT ERROR : %s%s
+031b > FLIGHT BACKDRIVE ACTIVE : %s%s
+031c > LOGIC TOGGLE UPDATE ERR : %s%s
+031d > FPMC TO FPMC COMM FAIL : %s%s
+031e > PRESSURE TRANSIENT : %s%s
+031f > EXCESSIVE PRESSURE : %s%s
+0320 > EXCESSIVE PRESS*VELOCITY: %s%s
+0321 > NEG PRESS*VELOCITY FAIL : %s%s
+0322 > INVALID FGEN DIMENSION : %s%s
+0323 > INVALID FGEN MULTIPLICITY: %s%s
+0324 > FGEN MEMORY ALLOCATE FAIL: %s%s
+0325 > FGEN MAX FUNCTION EXCEED : %s%s
+0326 > FGEN INIT FAILURE : %s%s
+0327 > INVALID ADIO SLOT DEFINED : XA%d
+0328 > AB5-XA%d ADIO NOT INITIALIZED
+0329 > AB5-XA%d ADIO ALREADY INITIALIZED
+032a > ADIO NOT INSTALLED IN SLOT AB5-XA%d
+032b > AB5-XA%d ADIO RUN-TIME FAIL
+032c > AB5-XA%d ADIO INIT SETUP READBACK FAIL
+032d > AB5-XA%d ADIO EX-BUS CABLE FAULT
+032e > AB5-XA%d ADIO RAM TEST FAIL
+032f > AB5-XA%d ADIO ANALOG CONVERTER FAIL
+0330 > AB5-XA%d ADIO D->A CONVERTER FAIL
+0331 > AB5-XA%d ADIO A->D CONVERTER FAIL
+0332 > AB5-XA%d ADIO INPUTS NOT CHANGING
+0333 > OPTICAL POS ENCODER FAIL: %s%s
+0334 > AB5-XA%d ADIO DAC CHANNEL 0 FAIL
+0335 > AB5-XA%d ADIO DAC CHANNEL 1 FAIL
+0336 > AB5-XA%d ADIO DAC CHANNEL 2 FAIL
+0337 > AB5-XA%d ADIO DAC CHANNEL 3 FAIL
+0338 > AB5-XA%d ADIO DAC CHANNEL 4 FAIL
+0339 > AB5-XA%d ADIO DAC CHANNEL 5 FAIL
+033a > AB5-XA%d ADIO DAC CHANNEL 6 FAIL
+033b > AB5-XA%d ADIO DAC CHANNEL 7 FAIL
+*
+*
+*     Cabinet control loading error messages
+*
+0401 > C/L PRESSURE < 1100 PSI
+0402 > C/L PRESSURE < 1350 PSI AT START UP
+0403 > C/L DEPRESSURIZATION TIME-OUT
+0404 > C/L COMMUNICATION FAIL : %s%s
+0405 > C/L ON REQUEST TIME-OUT : %s%s
+0406 > C/L OFF REQUEST TIME-OUT : %s%s
+0407 No C/l channels defined on server
+0408 > C/L SAFETY VALVE ENABLE LOOP OPEN
+0409 > C/L EXTERNAL POWER FAIL
+040a **** C/L MAINTENANCE MODE ACTIVE ****
+040b > ELU AMPLIFIER DIP/DOP MISMATCH
+040c > C/L PRESSURE < 1000 PSI AT START UP
+040d No C/L channels defined on server 2
+040e > C/L PRESSURE < 850 PSI
+040f No ELU channels defined on server
+0410 > LOWER C/L INHIBIT SW ACTIVATED
+0411 > UPPER C/L INHIBIT SW ACTIVATED
+*
+*
+*    C/L operation error messages
+*
+0501 C/L motor not running
+0502 C/L mode control at instructor stn only
+0503 Active C/L OFF switch
+0504 Host computer off line
+0505 Motion system failed or not ready
+*
+*
+*     Motion error messages
+*
+0601 MOTION FPMC NOT INIT FROM HOST
+0602 HOST TO MOTION FPMC COMM FAIL
+8602 Host to Motion FPMC Comm Fail - Cleared
+0603 Host checksum warning : MOTION
+0604 > BUFFER UNIT NOT CONNECTED TO %s%s
+0605 > MOTION SAFETIES TOGGLE DOP FAILURE
+0606 > ROD PRESSURE INPUT TRANSIENT : %s%s
+0607 > CAP PRESSURE INPUT TRANSIENT : %s%s
+0608 > FORCE INPUT TRANSIENT : %s%s
+0609 > POSITION DRIFT FAILURE: %s%s
+060a > EXCESSIVE FLIGHT COMMANDS TO MOTION
+060b > INVALID HOST CHECKSUM : MOTION
+060c ENVEL mode timeout. Press RESET to clear
+060d > INVALID HOST ITERATION RATE : MOTION
+860d > INVALID HOST ITERATION RATE : MOTION - Cleared
+060e > FORCE BUFFER UNIT DISCONNECTED: %s%s
+060f > TRAVEL LIMIT EXCEEDED : %s%s
+0610 > EXCESSIVE FRICTION : %s%s
+0611 > BUFFER UNIT POWER FAIL : %s%s
+0612 > BUF UNIT NOT CONNECTED TO DN1 : %s%s
+0613 > BU STBY MODE NOT RESPONDING : %s%s
+0614 > BU NORMAL MODE NOT RESPONDING : %s%s
+0615 > POSITION ERROR : %s%s
+0616 > VALVE CURRENT ERROR : %s%s
+0617 > EXCESSIVE FORCE : %s%s
+0618 > INTERMITTENT POSITION SIGNAL : %s%s
+0619 > POSITION SIGNAL OUT OF RANGE : %s%s
+061a Undefined MOTION error 26 : %s%s
+061b > CAP PRESS SIGNAL OUT OF RANGE : %s%s
+061c > ROD PRESS SIGNAL OUT OF RANGE : %s%s
+061d > FORCE TRANSDUCER OUT OF RANGE : %s%s
+061e > LOSS OF CONTROL IN STBY MODE : %s%s
+061f Velocity error warning : %s%s
+0620 Velocity warning : %s%s
+0621 Position error warning : %s%s
+0622 Valve current error warning : %s%s
+0623 Travel limit warning : %s%s
+8623 Travel limit warning : %s%s - Cleared
+0624 Friction warning : %s%s
+0625 Force warning : %s%s
+0626 > MOTION SYSTEM DEFINITION MISMATCH
+0627 > EXCESSIVE VELOCITY : %s%s
+0628 > HYD PRESSURE RETURN REVERSED : %s%s
+0629 > MOTION RAMP UP FAILURE : %s%s
+062a > VELOCITY ERROR : %s%s
+062b > SERIAL COMM INIT FAIL : %s%s
+062c > SERIAL COMMUNICATION FAIL : %s%s
+062d > AB5-XA13 NOT INSTALLED
+062e > AB5-XA14 NOT INSTALLED
+062f > AB5-XA10 NOT INSTALLED
+0630 > AB5-XA11 NOT INSTALLED
+0631 Undefined MOTION error 49 : %s%s
+0632 > LOGIC DMC NOT RESPONDING TO MOTION
+8632  > LOGIC DMC NOT RESPONDING TO MOTION - Cleared
+0633 > NO LOGIC RESPONSE TO MOTION OFF REQ
+0634 > AB5-XA3 NOT INSTALLED
+0635 > AB5-XA4 NOT INSTALLED
+0636 > AB5-XA5 NOT INSTALLED
+0637 > AB5-XA6 NOT INSTALLED
+0638 > AB5-XA7 NOT INSTALLED
+0639 **** MOTION SAFETIES DISABLED ****
+063a > MOTION PROGRAMS OVERRUNNING
+063b > OPTIONS NOT RECEIVED BY MOTION
+063c MOTION system disabled from FPMC-30
+063d Flight controls disabled by MOTION
+063e Undefined MOTION error 62 : %s%s
+063f Logic / motion system options mismatch
+0640 Undefined MOTION error 64 : %s%s
+0641 > AB5-XA13 NOT RESPONDING
+0642 > AB5-XA14 NOT RESPONDING
+0643 > AB5-XA10 NOT RESPONDING
+0644 > AB5-XA11 NOT RESPONDING
+0645 > AB5-XA3 NOT RESPONDING
+0646 > AB5-XA4 NOT RESPONDING
+0647 > AB5-XA5 NOT RESPONDING
+0648 > AB5-XA6 NOT RESPONDING
+0649 > AB5-XA7 NOT RESPONDING
+*
+*
+*     Cabinet motion error messages
+*
+0701 Motion filter warning : %s%s
+0702 > MOTION PRESSURE < 1100 PSI
+0703 > MOTION PRESSURE < 1350 PSI AT START UP
+0704 MOTION IN COMPUTER TEST MODE
+0705 > MOTION DEPRESSURIZATION TIME-OUT
+0706 > MOTION RAMP UP REQUEST TIME-OUT
+0707 > MOTION RAMP DOWN REQUEST TIME-OUT
+8707 > MOTION RAMP DOWN REQUEST TIME-OUT - Cleared
+0708 > MOTION REST SW / POS TRANSDUCER FAULT
+0709 > MOTION FPMC NOT RESPONDING
+070a > MOTION AT REST SWITCH FAILURE
+070b > ABORT MANIFOLD FAILURE : %s%s
+070c > MOTION LEAN-OUT CONDITIONS DETECTED
+070d > ABORT MANIFOLD DIP FAILURE : %s%s
+070e > OVERHEAD CRANE NOT STOWED
+070f Overhead crane not stowed
+0710 Invalid motion configuration
+0711 Position signal out of range : %s%s
+0712 Buffer unit not connected : %s%s
+0713 Cap press signal out of range : %s%s
+0714 Rod press signal out of range : %s%s
+0715 No motion channels defined on server
+0716 Flight compartment door open
+0717 > FLIGHT COMPARTMENT DOOR OPEN
+0718 > UPPER BEARING PRESSURE < 2750 PSI
+0719 > UPR BRG PRESSURE < 2850 PSI AT STARTUP
+071a Motion lean-out conditions detected
+071b Motion override switch active
+071c Motion abort request
+871c Motion abort request - Cleared
+071d Motion standby mode request
+071e Motion normal off request
+871e Motion normal off request - Cleared
+071f Motion freeze request
+0720 > VELOCITY LIMIT EXCEEDED : %s%s
+0721 > MOTION OVERRIDE SWITCH ACTIVE
+0722 > FLIGHT COMPARTMENT MAT SWITCH ACTIVE
+0723 Flight compartment mat switch active
+0724 > VIS PLATFORM MOTION INHIBIT SW ACTIVE
+0725 > VISUAL MIRROR ENTRANCE DOOR OPEN
+0726 > VISUAL HATCH DOOR OPEN
+0727 Visual platform motion inhibit sw active
+0728 Visual mirror entrance door open
+0729 Visual hatch door open
+072a > MOVEABLE CB PANEL NOT LOCKED
+072b Moveable CB panel not locked
+072c **** MOTION MOTOR STARTUP DISABLED ****
+072d MOTION IN ACTUATOR/ATTITUDE TEST MODE
+072e > MOTION EXTERNAL POWER FAIL
+072f > VISUAL RAILING NOT STOWED
+0730 Visual railing not stowed
+0731 > F/C FWD LEFT UNDERSIDE BAY DOOR OPEN
+0732 > F/C MID LEFT UNDERSIDE BAY DOOR OPEN
+0733 > F/C AFT LEFT UNDERSIDE BAY DOOR OPEN
+0734 > F/C FWD RIGHT UNDERSIDE BAY DOOR OPEN
+0735 > F/C MID RIGHT UNDERSIDE BAY DOOR OPEN
+0736 > F/C AFT RIGHT UNDERSIDE BAY DOOR OPEN
+0737 F/C fwd left underside bay door open
+0738 F/C mid left underside bay door open
+0739 F/C aft left underside bay door open
+073a F/C fwd right underside bay door open
+073b F/C mid right underside bay door open
+073c F/C aft right underside bay door open
+073d > VISUAL ACCESS LADDER NOT STOWED
+073e > VISUAL PROJECTOR DOME HATCH OPEN
+073f > LEFT VISUAL MIRROR ENTRANCE DOOR OPEN
+0740 Visual access ladder not stowed
+0741 Visual projector dome hatch open
+0742 Left visual mirror entrance door open
+0743 Motion ON disabled while depressurizing
+0744 > MOTION PRESSURE < 1000 PSI AT START UP
+0745 > MOTION PRESSURE < 1000 PSI
+0746 > UPPER LEFT RAILING(S) NOT STOWED
+0747 > UPPER RIGHT RAILING(S) NOT STOWED
+0748 > UPPER VISUAL LADDER NOT STOWED
+0749 > LEFT VISUAL PLATFORM STEP NOT STOWED
+074a > RIGHT VISUAL PLATFORM STEP NOT STOWED
+074b > LOWER VISUAL LADDER NOT STOWED
+074c > LEFT DOME RAILING NOT STOWED
+074d > RIGHT DOME RAILING NOT STOWED
+074e Upper left railing(s) not stowed
+074f Upper right railing(s) not stowed
+0750 Upper visual ladder not stowed
+0751 Left visual platform step not stowed
+0752 Right visual platform step not stowed
+0753 Lower visual ladder not stowed
+0754 Left dome railing not stowed
+0755 Right dome railing not stowed
+0756 > LEFT VISUAL AREA MAT SW (A) ACTIVATED
+0757 > RIGHT VISUAL AREA MAT SW (B) ACTIVATED
+0758 > LEFT F/C ACCESS MAT SW (C) ACTIVATED
+0759 > RIGHT F/C ACCESS MAT SW (D) ACTIVATED
+075a > CENTER F/C ACCESS MAT SW (E) ACTIVATED
+075b Left visual area mat sw (A) activated
+075c Right visual area mat sw (B) activated
+075d Left F/C access mat sw (C) activated
+075e Right F/C access mat sw (D) activated
+075f Center F/C access mat sw (E) activated
+0760 > VIS PLATFORM MOTION INHIBIT SW ACTIVE
+0761 Visual platform motion inhibit sw active
+0762 > FWD MOTION PLATFORM INHIBIT SW ACTIVE
+0763 > AFT MOTION PLATFORM INHIBIT SW ACTIVE
+0764 Fwd motion platform inhibit sw active
+0765 Aft motion platform inhibit sw active
+0766 > PAYLOAD INTERLOCK LOOP OPEN
+0767 Payload interlock loop open
+0768 > SIMULATOR CELL GATE NOT CLOSED
+0769 Simulator cell gate not closed
+076a > OVERHEAD MAINTENANCE LIGHTS NOT STOWED
+076b Overhead maintenance lights not stowed
+076c > INFRARED MOTION SENSOR ACTIVATED
+076d Infrared motion sensor active
+076e > ACCESS-WAY DOOR SOLENOID DE-ACTIVATED
+076f Access-way door solenoid not activated
+0770 > MOTION PRESSURE < 1200 PSI AT START UP
+0771 > MOTION PRESSURE < 1200 PSI
+0772 > CENTER F/C PRESSURE MAT SW ACTIVATED
+0773 > LEFT F/C PRESSURE MAT SW ACTIVATED
+0774 > RIGHT F/C PRESSURE MAT SW ACTIVATED
+0775 Center F/C pressure mat sw activated
+F0776 Left F/C pressure mat sw activated
+0777 Right F/C pressure mat sw activated
+*
+*
+*    Motion operation error messages
+*
+0801 Motion motor(s) not running
+0802 Control loading not ON
+0803 Active motion OFF switch
+0804 C/L must be ON with hydraulics coupled
+0805 Host computer off line
+0806 Vibration platform not ON
+*
+*
+*    Accessway error messages
+*
+0901 Accessway gate not closed
+8901 Accessway gate not closed - cleared
+0902 > GATE OPENED WHILE ACCESSWAY NOT DOWN
+8902 > GATE OPENED WHILE ACCESSWAY NOT DOWN - Cleared
+0903 > ACCESSWAY LIMIT SWITCH CONFLICT
+0904 > ACCESSWAY UP REQUEST TIME-OUT
+0905 > ACCESSWAY DOWN REQUEST TIME-OUT
+0906 Accessway should be raised
+0907 > A/W NOT UP WHILE MOTION PRESSURIZED
+0908 > ACCESSWAY MOTOR ENABLE FAILURE
+0909 > ACCESSWAY MAT SWITCH ACTIVATED
+090a Accessway mat switch activated
+*
+*     G-System error messages
+*
+0a01 > FORCE INPUT TRANSIENT : %s%s
+0a02 > POSITION INPUT TRANSIENT: %s%s
+0a03 > BUFFER UNIT DISCONNECTED: %s%s
+0a04 > SERVO AMPLIFIER FAULT : %s%s
+0a05 > EXCESSIVE FORCE : %s%s
+0a06 > EXCESSIVE FORCE*VELOCITY: %s%s
+0a07 > EXCESSIVE POSITION ERROR: %s%s
+0a08 > EXCESSIVE VELOCITY : %s%s
+0a09 > BUFFER UNIT PWR FAILURE : %s%s
+0a0a > NEG. FORCE*VELOCITY FAIL: %s%s
+0a0b > FORWARD BUNGEE FAILURE : %s%s
+0a0c Undefined C/L error 12 : %s%s
+0a0d > ADIO FAILED IN SLOT AB5-XA%d
+0a0e > ADIO CARD ERROR : %s%s
+0a0f > VELOCITY INPUT TRANSIENT: %s%s
+0a10 > BU STANDBY COMMAND FAIL : %s%s
+0a11 > BU STBY/NORM DISAGREE : %s%s
+0a12 > AMP FAULT/EPU DOOR OPEN: %s%s
+0a13 > EXCESSIVE COMMAND FAIL : %s%s
+0a14 > START UP FAILURE : %s%s
+0a15 > EXCESSIVE VELOCITY ERROR: %s%s
+0a16 > POSN INPUT WIRING FAIL : %s%s
+0a17 > BU COMMAND WIRING FAIL : %s%s
+0a18 > BU EXTERNAL POWER FAIL : %s%s
+0a19 > BU CMPTR ITERATION FAIL : %s%s
+0a1a > EXCESSIVE CURRENT ERROR : %s%s
+0a1b > FLIGHT BACKDRIVE ACTIVE : %s%s
+0a1c > LOGIC TOGGLE UPDATE ERR : %s%s
+0a1d > FPMC TO FPMC COMM FAIL : %s%s
+0a1e > PRESSURE TRANSIENT : %s%s
+0a1f > EXCESSIVE PRESSURE : %s%s
+0a20 > EXCESSIVE PRESS*VELOCITY: %s%s
+0a21 > NEG PRESS*VELOCITY FAIL : %s%s
+0a22 > INVALID FGEN DIMENSION : %s%s
+0a23 > INVALID FGEN MULTIPLICITY: %s%s
+0a24 > FGEN MEMORY ALLOCATE FAIL: %s%s
+0a25 > FGEN MAX FUNCTION EXCEED : %s%s
+0a26 > FGEN INIT FAILURE : %s%s
+0a27 > INVALID ADIO SLOT DEFINED : XA%d
+0a28 > AB5-XA%d ADIO NOT INITIALIZED
+0a29 > AB5-XA%d ADIO ALREADY INITIALIZED
+0a2a > ADIO NOT INSTALLED IN SLOT AB5-XA%d
+0a2b > AB5-XA%d ADIO RUN-TIME FAIL
+0a2c > AB5-XA%d ADIO INIT SETUP READBACK FAIL
+0a2d > AB5-XA%d ADIO EX-BUS CABLE FAULT
+0a2e > AB5-XA%d ADIO RAM TEST FAIL
+0a2f > AB5-XA%d ADIO ANALOG CONVERTER FAIL
+0a30 > AB5-XA%d ADIO D->A CONVERTER FAIL
+0a31 > AB5-XA%d ADIO A->D CONVERTER FAIL
+0a32 > AB5-XA%d ADIO INPUTS NOT CHANGING
+0a33 > OPTICAL POS ENCODER FAIL: %s%s
+*
+*
+*    G-system error messages
+*
+0b01 > G-SYSTEM PRESSURE < 1100 PSI
+0b02 > G-SYS PRESSURE < 1350 PSI AT START UP
+0b03 > G-SYSTEM DEPRESSURIZATION TIME-OUT
+0b04 > GSYS COMMUNICATION FAIL :%s%s
+0b05 > GSYS ON REQUEST TIME-OUT: %s%s
+0b06 > GSYS OFF REQUEST TIMEOUT: %s%s
+0b07 No G-system channels defined on server
+0b0b > SEAT PRESSURE < 40 PSI
+0b0c > SEAT PRESSURE > 110 PSI
+0b0d > SEAT PRESSURE < 55 PSI AT START UP
+0b0e > SEAT DEPRESSURIZATION TIME-OUT
+0b0f > SEAT ON REQUEST TIME-OUT: %s%s
+0b10 > SEAT OFF REQUEST TIMEOUT: %s%S
+0b11 No SEAT channels defined on server
+0b12 Undefined SEAT error 18 : %s%s
+0b13 Dynamic seat standby mode request
+0b14 Dynamic seat normal off request
+0b15 DYNAMIC SEAT IN COMPUTER TEST MODE
+*
+*
+*    G-system operation error messages
+*
+0c01 G-system motor not running
+0c02 G-system mode control at instructor stn only
+0c03 Active G-system OFF switch
+0c04 Host computer off line
+0c05 Dynamic seat mode control at IOS only
+0c06 Active dynamic seat OFF switch
+*
+*
+*     Vibration error messages
+*
+0d01 VIBRATION FPMC NOT INIT FROM HOST
+0d02 HOST TO VIBRATION FPMC COMM FAIL
+0d03 Host checksum warning : VIBRATION
+0d04 > BUFFER UNIT NOT CONNECTED TO %s%s
+0d05 > VIBRATION SAFETIES TOGGLE DOP FAILURE
+0d06 > ROD PRESSURE INPUT TRANSIENT : %s%s
+0d07 > CAP PRESSURE INPUT TRANSIENT : %s%s
+0d08 > FORCE INPUT TRANSIENT : %s%s
+0d09 > POSITION DRIFT FAILURE : %s%s
+0d0a > EXCESSIVE FLIGHT COMMANDS TO VIBRATION
+0d0b > INVALID HOST CHECKSUM : VIBRATION
+0d0c ENVEL mode timeout. Press RESET to clear
+0d0d > INVALID HOST ITERATION RATE : VIBRATION
+0d0e > FORCE BUFFER UNIT DISCONNECTED: %s%s
+0d0f > TRAVEL LIMIT EXCEEDED : %s%s
+0d10 > EXCESSIVE FRICTION : %s%s
+0d11 > BUFFER UNIT POWER FAIL : %s%s
+0d12 > BUF UNIT NOT CONNECTED TO DN1 : %s%s
+0d13 > BU STBY MODE NOT RESPONDING : %s%s
+0d14 > BU NORMAL MODE NOT RESPONDING : %s%s
+0d15 > POSITION ERROR : %s%s
+0d16 > VALVE CURRENT ERROR : %s%s
+0d17 > EXCESSIVE FORCE : %s%s
+0d18 > INTERMITTENT POSITION SIGNAL : %s%s
+0d19 > POSITION SIGNAL OUT OF RANGE : %s%s
+0d1a Undefined VIBRATION error 26 : %s%s
+0d1b > CAP PRESS SIGNAL OUT OF RANGE : %s%s
+0d1c > ROD PRESS SIGNAL OUT OF RANGE : %s%s
+0d1d > FORCE TRANSDUCER OUT OF RANGE : %s%s
+0d1e > LOSS OF CONTROL IN STBY MODE : %s%s
+0d1f Velocity error warning : %s%s
+0d20 Velocity warning : %s%s
+0d21 Position error warning : %s%s
+0d22 Valve current error warning : %s%s
+0d23 Travel limit warning : %s%s
+0d24 Friction warning : %s%s
+0d25 Force warning : %s%s
+0d26 > VIBRATION SYSTEM DEFINITION MISMATCH
+0d27 > EXCESSIVE VELOCITY : %s%s
+0d28 > HYD PRESSURE RETURN REVERSED : %s%s
+0d29 Undefined VIBRATION error 41 : %s%s
+0d2a > VELOCITY ERROR : %s%s
+0d2b > SERIAL COMM INIT FAIL : %s%s
+0d2c > SERIAL COMMUNICATION FAIL : %s%s
+0d2d > AB5-XA13 NOT INSTALLED
+0d2e > AB5-XA14 NOT INSTALLED
+0d2f > AB5-XA10 NOT INSTALLED
+0d30 > AB5-XA11 NOT INSTALLED
+0d31 Undefined VIBRATION error 49 : %s%s
+0d32 > LOGIC DMC NOT RESPONDING TO VIBRATION
+0d33 > NO LOGIC RESPONSE TO VIBRATION OFF REQ
+0d34 > AB5-XA3 NOT INSTALLED
+0d35 > AB5-XA4 NOT INSTALLED
+0d36 > AB5-XA5 NOT INSTALLED
+0d37 > AB5-XA6 NOT INSTALLED
+0d38 > AB5-XA7 NOT INSTALLED
+0d39 **** VIBRATION SAFETIES DISABLED ****
+0d3a > VIBRATION PROGRAMS OVERRUNNING
+0d3b > OPTIONS NOT RECEIVED BY VIBRATION
+0d3c VIBRATION system disabled from FPMC-30
+0d3d Flight controls disabled by VIBRATION
+0d3e Undefined VIBRATION error 62 : %s%s
+0d3f Undefined VIBRATION error 63 : %s%s
+0d40 Undefined VIBRATION error 64 : %s%s
+0d41 > AB5-XA13 NOT RESPONDING
+0d42 > AB5-XA14 NOT RESPONDING
+0d43 > AB5-XA10 NOT RESPONDING
+0d44 > AB5-XA11 NOT RESPONDING
+0d45 > AB5-XA3 NOT RESPONDING
+0d46 > AB5-XA4 NOT RESPONDING
+0d47 > AB5-XA5 NOT RESPONDING
+0d48 > AB5-XA6 NOT RESPONDING
+0d49 > AB5-XA7 NOT RESPONDING
+*
+*
+*    Vibration platform system error messages
+*
+0e01 > VIBRATION PRESSURE < 1100 PSI
+0e02 > VIBRATION PRESS < 1350 PSI AT START UP
+0e03 > VIBRATION DEPRESSURIZATION TIME-OUT
+0e04 > VIBRATION PLATFORM ON REQUEST TIME-OUT
+0e05 > VIBRATION PLATFORM OFF REQUEST TIMEOUT
+0e06 No vibration channels defined on server
+0e07 Vibration standby mode request
+0e08 Vibration normal off request
+0e09 VIBRATION PLATFORM IN COMPUTER TEST MODE
+0e0a > VIBRATION FPMC NOT RESPONDING
+0e0b VIBRATION PLATFORM IN TEST MODE
+*
+*
+*    Vibration platform operation error messages
+*
+0f01 Vibration platform motor not running
+0f02 Vibr platform ON control at IOS only
+0f03 Active vibration platform OFF switch
+0f04 Host computer off line
+*
+*
+*     Dynamic seat error messages
+*
+1001 SEAT FPMC NOT INIT FROM HOST
+1002 HOST TO SEAT FPMC COMM FAIL
+1003 Host checksum warning : SEAT
+1004 > BUFFER UNIT NOT CONNECTED TO %s%s
+1005 > SEAT SAFETIES TOGGLE DOP FAILURE
+1006 > ROD PRESSURE INPUT TRANSIENT : %s%s
+1007 > CAP PRESSURE INPUT TRANSIENT : %s%s
+1008 > FORCE INPUT TRANSIENT : %s%s
+1009 > POSITION DRIFT FAILURE : %s%s
+100a > EXCESSIVE FLIGHT COMMANDS TO SEAT
+100b > INVALID HOST CHECKSUM : SEAT
+100c ENVEL mode timeout. Press RESET to clear
+100d > INVALID HOST ITERATION RATE : SEAT
+100e > FORCE BUFFER UNIT DISCONNECTED: %s%s
+100f > TRAVEL LIMIT EXCEEDED : %s%s
+1010 > EXCESSIVE FRICTION : %s%s
+1011 > BUFFER UNIT POWER FAIL : %s%s
+1012 > BUF UNIT NOT CONNECTED TO DN1 : %s%s
+1013 > BU STBY MODE NOT RESPONDING : %s%s
+1014 > BU NORMAL MODE NOT RESPONDING : %s%s
+1015 > POSITION ERROR : %s%s
+1016 > VALVE CURRENT ERROR : %s%s
+1017 > EXCESSIVE FORCE : %s%s
+1018 > INTERMITTENT POSITION SIGNAL : %s%s
+1019 > POSITION SIGNAL OUT OF RANGE : %s%s
+101a Undefined SEAT error 26 : %s%s
+101b > CAP PRESS SIGNAL OUT OF RANGE : %s%s
+101c > ROD PRESS SIGNAL OUT OF RANGE : %s%s
+101d > FORCE TRANSDUCER OUT OF RANGE : %s%s
+101e > LOSS OF CONTROL IN STBY MODE : %s%s
+101f Velocity error warning : %s%s
+1020 Velocity warning : %s%s
+1021 Position error warning : %s%s
+1022 Valve current error warning : %s%s
+1023 Travel limit warning : %s%s
+1024 Friction warning : %s%s
+1025 Force warning : %s%s
+1026 > SEAT SYSTEM DEFINITION MISMATCH
+1027 > EXCESSIVE VELOCITY : %s%s
+1028 > HYD PRESSURE RETURN REVERSED : %s%s
+1029 Undefined SEAT error 41 : %s%s
+102a > VELOCITY ERROR : %s%s
+102b > SERIAL COMM INIT FAIL : %s%s
+102c > SERIAL COMMUNICATION FAIL : %s%s
+102d > AB5-XA13 NOT INSTALLED
+102e > AB5-XA14 NOT INSTALLED
+102f > AB5-XA10 NOT INSTALLED
+1030 > AB5-XA11 NOT INSTALLED
+1031 Undefined SEAT error 49 : %s%s
+1032 > LOGIC DMC NOT RESPONDING TO SEAT
+1033 > NO LOGIC RESPONSE TO SEAT OFF REQ
+1034 > AB5-XA3 NOT INSTALLED
+1035 > AB5-XA4 NOT INSTALLED
+1036 > AB5-XA5 NOT INSTALLED
+1037 > AB5-XA6 NOT INSTALLED
+1038 > AB5-XA7 NOT INSTALLED
+1039 **** SEAT SAFETIES DISABLED ****
+103a > SEAT PROGRAMS OVERRUNNING
+103b > OPTIONS NOT RECEIVED BY SEAT
+103c SEAT system disabled from FPMC-30
+103d Flight controls disabled by SEAT
+103e Undefined SEAT error 62 : %s%s
+103f Undefined SEAT error 63 : %s%s
+1040 Undefined SEAT error 64 : %s%s
+1041 > AB5-XA13 NOT RESPONDING
+1042 > AB5-XA14 NOT RESPONDING
+1043 > AB5-XA10 NOT RESPONDING
+1044 > AB5-XA11 NOT RESPONDING
+1045 > AB5-XA3 NOT RESPONDING
+1046 > AB5-XA4 NOT RESPONDING
+1047 > AB5-XA5 NOT RESPONDING
+1048 > AB5-XA6 NOT RESPONDING
+1049 > AB5-XA7 NOT RESPONDING
+*
+*    MCL DMC server error messages
+*
+1f00 MCL DMC server %d (DMC_SERVER): Undefined error
+1f01 MCL DMC server %d (DMC_SERVER): Server online
+1f10 MCL DMC server %d (SERVER): Invalid command
+1f11 MCL DMC server %d (SERVER): No such device
+1f12 MCL DMC server %d (SERVER): Invalid number of devices
+1f13 MCL DMC server %d (SERVER): Invalid number of nodes
+1f14 MCL DMC server %d (SERVER): Invalid number of opcodes
+1f15 MCL DMC server %d (SERVER): Invalid number of sends
+1f16 MCL DMC server %d (SERVER): Invalid number of receives
+1f17 MCL DMC server %d (SERVER): Local node not defined
+1f18 MCL DMC server %d (QUEUE_SERVER): Server code did not run to completion
+1f20 MCL DMC server %d (LSERVER): Invalid command
+1f30 MCL DMC server %d (DMC_BUFF): No such buffer
+1f31 MCL DMC server %d (DMC_BUFF): Invalid buffer size
+1f32 MCL DMC server %d (DMC_BUFF): Buffer not write enabled
+1f33 MCL DMC server %d (DMC_BUFF): Buffer not read enabled
+1f40 MCL DMC server %d (DEVICE_WRITE): Invalid device
+1f41 MCL DMC server %d (DEVICE_READ): Invalid device
+1f42 MCL DMC server %d (DEVICE_SYNC): Invalid device
+1f43 MCL DMC server %d (DEVICE_RESET): Invalid device
+1f44 MCL DMC server %d (DEVICE_LOAD): Invalid device
+1f45 MCL DMC server %d (DEVICE_TEST): Invalid device
+1f46 MCL DMC server %d (WRITE_MAPPING): Invalid write index
+1f50 MCL DMC server %d (WRITE_MBX): Invalid device
+1f58 MCL DMC server %d (REAL_TIME): Invalid opcode
+1f60 MCL DMC server %d (A429_INIT): Card not present or not correct type
+1f61 MCL DMC server %d (A429_INIT): Card did not acknowledge hold
+1f62 MCL DMC server %d (A429_INIT): Card did not acknowledge reset
+1f63 MCL DMC server %d (A429_RESET): Device not ready
+1f64 MCL DMC server %d (A429_RESET): Card still on hold
+1f65 MCL DMC server %d (A429_RESET): ARINC executive not responding
+1f66 MCL DMC server %d (A429_RESET): Card does not reset
+1f67 MCL DMC server %d (A429_RESET): ARINC executive reports hardware failure
+1f68 MCL DMC server %d (A429_LOAD): card not in hold
+1f69 MCL DMC server %d (A429_LOAD): card not in load status
+1f6a MCL DMC server %d (A429_LOAD): card not halted before load
+1f6b MCL DMC server %d (A429_LOAD): Invalid address on load
+1f6c MCL DMC server %d (A429_READ): Device timeout
+1f6d MCL DMC server %d (A429_READ): Invalid read size
+1f6e MCL DMC server %d (A429_READ): Destination address not in shared RAM
+1f6f MCL DMC server %d (A429_WRITE): Device timeout
+1f70 MCL DMC server %d (A429_WRITE): Destination address not in shared RAM
+1f71 MCL DMC server %d (A429_CMD_WRITE): Unknown command opcode
+1f72 MCL DMC server %d (A429_CMD_WRITE): Device timeout
+1f73 MCL DMC server %d (A429_CMD_WRITE): Invalid command data count
+1f74 MCL DMC server %d (A429_CMD_WRITE): ARINC did not acknowledge init command
+1f80 MCL DMC server %d (LDMC_READ): Invalid read address
+1f81 MCL DMC server %d (LDMC_WRITE): Invalid write address
+1f90 MCL DMC server %d (DSC_INIT): Card not ready or not present
+1f91 MCL DMC server %d (DSC_RESET): Device not ready
+1f92 MCL DMC server %d (DSC_RESET): Device failed on reset
+1f93 MCL DMC server %d (DSC_LOAD): DSC not halted before load
+1f94 MCL DMC server %d (DSC_LOAD): DSC not ready for download
+1f95 MCL DMC server %d (DSC_LOAD): DSC not in load status
+1f96 MCL DMC server %d (DSC_LOAD): Invalid address on load
+1f97 MCL DMC server %d (DSC_LOAD): DSC did not respond to load
+1f98 MCL DMC server %d (DSC_LOAD): DSC reported download fail
+1f99 MCL DMC server %d (DSC_TRANS): Device timeout
+1fa0 MCL DMC server %d (FPMC_INIT): Card not present or not FPMC type
+1fa1 MCL DMC server %d (FPMC_INIT): FPMC did not acknowledge hold
+1fa2 MCL DMC server %d (FPMC_RESET): Device not ready
+1fa3 MCL DMC server %d (FPMC_LOAD): FPMC not in hold
+1fa4 MCL DMC server %d (FPMC_LOAD): FPMC not in load status
+1fa5 MCL DMC server %d (FPMC_LOAD): FPMC not halted before load
+1fa6 MCL DMC server %d (FPMC_LOAD): Invalid address on load
+1fa7 MCL DMC server %d (FPMC_LOAD): Failed write confidence test
+1fa8 MCL DMC server %d (FPMC_SIG): Device timeout
+1fa9 MCL DMC server %d (FPMC_READ): Device timeout
+1faa MCL DMC server %d (FPMC_READ): Invalid read size
+1fab MCL DMC server %d (FPMC_WRITE): Device timeout
+1fac MCL DMC server %d (FPMC_WRITE): Failed write confidence test
+1fad MCL DMC server %d (FPMC_COMMAND): Invalid command
+1fae MCL DMC server %d (FPMC_CHK): FPMC code checksum failure
+1faf MCL DMC server %d (FPMC_CHK): FPMC memory check failure
+1fb0 MCL DMC server %d (FPMC_CHK): FPMC internal timer failure
+1fb1 MCL DMC server %d (FPMC_CHK): FPMC data checksum failure
+1fb2 MCL DMC server %d (FPMC_SIG): Device timeout warning
+1fb3 MCL DMC server %d (FPMC_READ): Device timeout warning
+1fb4 MCL DMC server %d (FPMC_WRITE): Device timeout warning
+1fc0 MCL DMC server %d (RABI_INIT): No card in this slot
+1fc1 MCL DMC server %d (RABI_INIT): Card not RABI type
+1fc2 MCL DMC server %d (RABI_INIT): RABI did not acknowledge hold
+1fc3 MCL DMC server %d (RABI_RESET): Device not ready
+1fc4 MCL DMC server %d (RABI_LOAD): RABI not in hold
+1fc5 MCL DMC server %d (RABI_LOAD): RABI not in load status
+1fc6 MCL DMC server %d (RABI_LOAD): RABI not halted before load
+1fc7 MCL DMC server %d (RABI_LOAD): Invalid address on load
+1fc8 MCL DMC server %d (RABI_SIG): Device timeout
+1fc9 MCL DMC server %d (RABI_READ): Device timeout
+1fca MCL DMC server %d (RABI_READ): Invalid read size
+1fcb MCL DMC server %d (RABI_WRITE): Device timeout
+1fcc MCL DMC server %d (RABI_COMMAND): Invalid command
+1fe0 MCL DMC server %d (STC_INIT): Card not ready or not present
+1fe1 MCL DMC server %d (STC_WRITE): Invalid destination offset
+1fe2 MCL DMC server %d (STC_READ): Invalid source offset
+1fe3 MCL DMC server %d (STC_SOURCE): Using internal sync source
+1fe4 MCL DMC server %d (STC_SOURCE): Using external sync source
+1ff0 MCL DMC server %d (DOP_INIT): Card not present
+1ff1 MCL DMC server %d (DOP_RESET): Device not ready
+1ff2 MCL DMC server %d (DOP_WRITE): Invalid number of words
+1ff3 MCL DMC server %d (DOP_WRITE): Device timeout
+*
+*
+:DN1_X:
+0001  
+0002  
+0003  
+0004  
+0005  
+*
+*
+*    Cabinet chassis names
+*
+:DN1_0001_Y:
+002a AB5
+002b CHASSIS
+002c C/L PRIMARIES
+002d C/L SECONDARIES
+002e ACTUATORS 1->3
+002f ACTUATORS 4->6
+0030 DYNAMIC SEAT
+0031 VIBR PLATFORM
+0032 ABORT MANIFOLDS
+0033 CABINET CONTROL
+0034 F/C COMBINING PANEL
+0035 CB10
+0036 CB14
+0037 CB15
+0038 CB16
+0039 TB1-2
+003a MOTION/VIBRATION
+003b CONTROLS/SEAT
+*
+*
+*    Hydraulic system names
+*
+:DN1_0002_Y:
+0001 COOLING
+0002 C/L
+0003 MOTION 1
+0004 MOTION 2
+0005 MOTION 3
+0006 UPR BRNG
+0007 G-SYSTEM
+0008 VIBRATION
+0009 PRESSURE
+000a RETURN 1
+000b RETURN 2
+000c MOTION
+*
+*
+*    Control loading channel names
+*
+:DN1_0003_Y:
+0001 UNDEFINED
+0002 CELEVATOR
+0003 FELEVATOR
+0004 STABTRIM
+0005 PITCHTRIM
+0006 CAILERON
+0007 FAILERON
+0008 SPOILER
+0009 SPEEDBRAKE
+000a RUDDER
+000b CNWS
+000c FNWS
+000d 1THROTTLE
+000e 2THROTTLE
+000f 3THROTTLE
+0010 4THROTTLE
+0011 FLAPHANDLE
+0012 CABINPRESS
+0013 GUSTLOCK
+0014 ALTLNDGEAR
+0015 1CONTROL
+0016 2CONTROL
+0017 LTOEBRAKE
+0018 RTOEBRAKE
+0019 1TOEBRAKE
+001a 2TOEBRAKE
+001b 3TOEBRAKE
+001c 4TOEBRAKE
+001d CAAP
+001e CEAP
+001f CRAP
+0020 CELF
+0021 CFLL
+0022 CPITCH_CYC
+0023 FPITCH_CYC
+0024 CROLL_CYC
+0025 FROLL_CYC
+0026 CYAW_PEDAL
+0027 FYAW_PEDAL
+0028 CCOLL
+0029 FCOLL
+002a C1CUSHION
+002b C2CUSHION
+002c C3CUSHION
+002d C4CUSHION
+002e C5CUSHION
+002f C6CUSHION
+0030 C7CUSHION
+0031 C8CUSHION
+0032 CSUIT
+0033 CSHAKER
+0034 F1CUSHION
+0035 F2CUSHION
+0036 F3CUSHION
+0037 F4CUSHION
+0038 F5CUSHION
+0039 F6CUSHION
+003a F7CUSHION
+003b F8CUSHION
+003c FSUIT
+003d FSHAKER
+003e CLAPBELT
+003f FLAPBELT
+0040 STABILIZER
+0041 EFCS-AIL
+0042 EFCS-ELEV
+0043 EFCS-SPOIL
+0044 STABBUG
+0045 LSEAT
+0046 LBACK
+0047 RSEAT
+0048 RBACK
+0049 ROTOR
+004a CCAP
+004b CPAP
+004c CYAP
+004d HANDPUMP
+004e AUTOSPOILR
+004f 1CONDITION
+0050 2CONDITION
+0051 CRUDDER
+0052 FRUDDER
+0053 PID_ELEV
+0054 PID_AZIM
+*
+*
+*     Motion channel names
+*
+:DN1_0004_Y:
+0001 JACK 1
+0002 JACK 2
+0003 JACK 3
+0004 JACK 4
+0005 JACK 5
+0006 JACK 6
+0007 FL1
+0008 FL2
+*
+*
+*     Vibration platform channel names
+*
+:DN1_0005_Y:
+0001 JACK X
+0002 JACK Y
+0003 JACK Z
+*
+:END:
+*
+***************************************************
+*                                                 *
+*    P 1   E R R O R   M E S S A G E   L I S T    *
+*                                                 *
+***************************************************
+:P1:
+*
+0001 P1 sequence not started
+0002 Computer iteration failure
+0003 Invalid SON configuration
+0004 Sequence incomplete
+0005 Host I/O channel not responding
+0006 Host I/O card failed or not installed
+0007 > P1 EMERGENCY SHUT OFF ACTIVE
+*
+0010 OPTOMUX FAIL : %s
+0011 SMOKE/OVERHEAT : %s
+0012 FLOW SENSOR : %s
+0013 CIRCUIT BREAKER : %s
+0014 VESDA ALARM : %s
+0015 VESDA ALARM : %s
+*
+0016 120 VAC OUT OF RANGE: %s %s
+0017 +5 VDC OUT OF RANGE: %s %s
+0018 -15 VDC OUT OF RANGE: %s %s
+0019 +15 VDC OUT OF RANGE: %s %s
+001a -24 VDC OUT OF RANGE: %s %s
+001b +24 VDC OUT OF RANGE: %s %s
+001c CURRENT OUT OF RANGE: %s %s
+001d CURRENT OUT OF RANGE: %s %s
+001e +28 VDC OUT OF RANGE: %s %s
+001f -28 VDC OUT OF RANGE: %s %s
+0020 +26 VDC OUT OF RANGE: %s %s
+0021 -36 VDC OUT OF RANGE: %s %s
+0022 +48 VDC OUT OF RANGE: %s %s
+0023 -48 VDC OUT OF RANGE: %s %s
+0024 +12 VDC OUT OF RANGE: %s %s
+0025 -12 VDC OUT OF RANGE: %s %s
+0026 PWRF OUT OF RANGE: %s %s
+0027 115 VAC OUT OF RANGE: %s %s
+0028 +30 VDC OUT OF RANGE: %s %s
+0029 -30 VDC OUT OF RANGE: %s %s
+002a CURRENT OUT OF RANGE: %s %s
+002b 220 VAC OUT OF RANGE: %s %s
+002c 240 VAC OUT OF RANGE: %s %s
+*
+*
+*     Cabinet/bay text
+*
+:P1_X:
+0000 UNDEF CAB
+0001 C1 CAB
+0002 C2 CAB
+0003 C3 CAB
+0004 DN1 CAB
+0005 DN2 CAB
+0006 DN3 CAB
+0007 F1 CAB
+0008 F2 CAB
+0009 FC-A601
+000a FC-A602
+000b FC-A603
+000c FC-A604
+000d FC-A802
+000e FC-A803
+000f FC-A804
+0010 FC-A805
+0011 FC-A806
+0012 FC-A811
+0013 FC-A812
+0014 FC-A813
+0015 FC-A814
+0016 FC-A815
+0017 FC-A816
+0018 FC-A817
+0019 FC-A818
+001a FC-A821
+001b FC-A823
+001c FC-A830
+001d FC-A831
+001e FC-A832
+001f FC-A833
+0020 FC-A834
+0021 FC-A835
+0022 FC-A836
+0023 FC-A837
+0024 FC AFT OVHD
+0025 FC AREA A
+0026 FC AREA B
+0027 FC AREA C
+0028 FC FWD OVHD
+0029 FC INST STN
+002a FC ZONE A
+002b FC ZONE B
+002c GEN#1
+002d GEN#2
+002e GEN#3
+002f H1 HPP
+0030 L1 CAB
+0031 L2 CAB
+0032 L3 CAB
+0033 L601
+0034 L602
+0035 L603
+0036 L604
+0037 L7 CAB
+0038 L8 CAB
+0039 L9 CAB
+003a L10 CAB
+003b LC1 CAB
+003c LC2 CAB
+003d LC3 CAB
+003e P1 120V
+003f P1 220V
+0040 P1 240V
+0041 P1 CAB
+0042 P2 CAB
+0043 P3 CAB
+0044 S1 CAB
+0045 S1A CAB
+0046 S2 CAB
+0047 SSG#1
+0048 SSG#2
+0049 SSG#3
+004a SUPERV LOOP
+004b V1 CAB
+004c V2 CAB
+004d V3 CAB
+004e V4 CAB
+004f V5 CAB
+0050 400 HZ GEN
+0051 FLOW SENSORS
+0052 FLT COMPT CB
+0053 FLT COMPARTMENT
+0054 SMOKE/OVERHEAT
+0055 ZONE 1
+0056 ZONE 2
+0057 ZONE 3
+0058 ZONE 4
+0059 S15 CAB
+005a ZONE 5
+005b FC-A911
+005c FC-A912
+005d FC-A913
+005e FC-A914
+005f FC-A915
+0060 FC-A916
+0061 FC-A917
+0062 FC-A921
+0063 FC-A922
+0064 FC-A923
+0065 FC-A924
+0066 FC-A925
+0067 FC-A926
+0068 FC-A927
+0069 FC-A931
+006a FC-A932
+006b FC-A933
+006c FC-A934
+006d FC-A935
+006e FC-A936
+006f FC-A937
+0070 FC-A941
+0071 FC-A942
+0072 FC-A943
+0073 FC-A944
+0074 FC-A945
+0075 FC-A946
+0076 FC-A947
+0077 FC-A951
+0078 FC-A952
+0079 FC-A953
+007a FC-A954
+007b FC-A955
+007c FC-A956
+007d FC-A957
+007e UNIT FAULT
+007f V1/V2 CAB
+0080 FLT/COMP
+0081 L1/DN1/P1
+0082 S1/F2 CAB
+0083 FC-L601
+0084 FC-L602
+0085 FC-L603
+0086 L1 AND F2 CABINET
+0087 L601 & L602 BAY
+*
+*
+*     Location text
+*
+:P1_Y:
+0000
+0001 PHASE-A
+0002 PHASE-B
+0003 PHASE-C
+0004 NEUTRAL
+0005 A1
+0006 A1PS1
+0007 A1PS2
+0008 A1PS3
+0009 A1PS4
+000a A1PS5
+000b A1PS6
+000c A2
+000d A2PS1
+000e A2PS2
+000f A2PS3
+0010 A2PS4
+0011 A2PS5
+0012 A2PS6
+0013 A3
+0014 A3PS1
+0015 A3PS2
+0016 A3PS3
+0017 A3PS4
+0018 A3PS5
+0019 A3PS6
+001a A4
+001b A4PS1
+001c A4PS2
+001d A4PS3
+001e A4PS4
+001f A4PS5
+0020 A4PS6
+0021 A5
+0022 A5PS1
+0023 A5PS2
+0024 A5PS3
+0025 A5PS4
+0026 A5PS5
+0027 A5PS6
+0028 A6
+0029 A6PS1
+002a A6PS2
+002b A6PS3
+002c A6PS4
+002d A6PS5
+002e A6PS6
+002f A7
+0030 A8
+0031 A9
+0032 A10
+0033 A11
+0034 A12
+0035 A13
+0036 A14
+0037 A15
+0038 A16
+0039 A17
+003a A18
+003b A19
+003c A20
+003d A21
+003e A22
+003f A23
+0040 A24
+0041 A25
+0042 A26
+0043 A27
+0044 A28
+0045 A29
+0046 A30
+0047 A31
+0048 A32
+0049 A33
+004a A34
+004b A35
+004c A36
+004d A37
+004e A38
+004f A39
+0050 A40
+0051 A41
+0052 A42
+0053 A43
+0054 A44
+0055 A45
+0056 A46
+0057 A47
+0058 A48
+0059 A49
+005a A50
+005b A51
+005c A52
+005d A53
+005e A54
+005f A55
+0060 A56
+0061 A57
+0062 A58
+0063 A59
+0064 A60
+0065 AB1
+*
+:END:
+*
+*********************************************************************
+*        
+* START OF P1 (PLC CV1000) SECTION
+* Warning: - This section is read at boot time by the driver that 
+*            performs I/O with the P1 Cabinet PLC. Although it is
+*            read dynamically, changes in this section might affect
+*            driver performance. 
+*
+*            Refer to Electrical Power Systems group of dept. 71
+*	     for support.
+*	                             W.R. Murray x2298
+*				     
+*
+*********************************************************************
+:P1C:
+0000 PLC driver restarted
+0001 SMOKE / OVERHEAT CHANNEL %d %s%s
+0002 SMOKE DETECTOR SUPERVISORY LOOP OPEN
+0003 FIRE SUPPRESSION SYSTEM - FIRE ALARM
+0004 FLIGHT COMPARTMENT PLENUM OVERHEAT
+0005 VESDA 1 ZONE 1 %s
+0006 VESDA 1 ZONE 2 %s
+0007 VESDA 1 ZONE 3 %s
+0008 VESDA 1 ZONE 4 %s
+0009 VESDA 1 ZONE 5 %s
+000a VESDA 2 ZONE 1 %s
+000b VESDA 2 ZONE 2 %s
+000c VESDA 2 ZONE 3 %s
+000d VESDA 2 ZONE 4 %s
+000e VESDA 2 ZONE 5 %s
+000f VESDA SYSTEM 1 FAULT
+0010 VESDA SYSTEM 2 FAULT
+0101 AIRFLOW FAILURE CHANNEL %d %s%s
+0102 AIRFLOW FAILURE TIME OUT
+0201 INTERFACE NOT RUNNING
+0301 MAIN INPUT POWER PHASE %s VOLTAGE LEVEL
+0302 400 HZ O/P #%d PHASE %s OUT OF TOLERANCE
+0303 400 HZ GENERATOR O/P #%d FAILED
+0304 %dVAC 400HZ FAILED
+0305 MAIN INPUT PWR PHASE OR VOLTAGE FAIL
+0401 CB TRIPPED CHANNEL %d, %s%s
+0402 CIRCUIT BREAKER TRIPPED P1A32CB%d
+0403 NO SENSE RETURN FROM A32K%d/A32CB%d
+0501 SEQUENCE UNABLE TO CONTINUE
+0502 SEQUENCE NOT STARTED....
+0503 SEQUENCE ABORTED........
+0504 SEQUENCE TIME OUT
+0505 SEQUENCE IN PROGRESS
+0506 SEQUENCE PAUSED AT HOLDING POINT
+0507 SEQUENCE COMPLETE
+0508 PRE SEQUENCE ERROR
+0509 NO SEQUENCE CONFIGURATION SET
+0601 PSU OUT OF TOL CHAN%d %s%s %dVDC
+0602 PSU OUT OF TOL ANLG CHAN%d %s%s %dVDC
+0701 SMOKE GENERATOR ACTIVE
+0702 WARNING HORN IS ACTIVE
+0801 PLC-REMOTE I/O COMMUNICATION ERROR
+0802 PLC-CPU BUS UNIT ERROR
+0803 PLC-NON FATAL PROGRAM ERROR
+0804 PLC-REMOTE I/O UNIT FAILURE NODE %d
+0900 PLC NOT RESPONDING PROPERLY
+0901 ERROR WHILE HANDLING SIM_DGN.DAT
+0902 MEMORY ALLOCATION ERROR (DRIVER)
+0903 ERROR OPENING PORT %d FOR %s
+0904 ERROR WHILE TRANSLATING LOGICAL
+0905 ERROR WHILE CALLING CAE_STATUS()      
+0a00 INVALID MSG NO. %d
+0ff0 CIRCUIT BREAKER TRIPPED IN L8 CABINET
+0ff1 FLOW SENSOR FAIL IN L8 CABINET
+0ff2 VESDA FAULT
+0ff3 VESDA FIRE
+0ff4 +5V OUT OF TOLERANCE L8A1
+0ff5 +15V OUT OF TOLERANCE L8A1
+0ff6 -15V OUT OF TOLERANCE L8A1
+0ff7 +48V OUT OF TOLERANCE L8A32
+0ff8 -48V OUT OF TOLERANCE L8A32
+0ff9 +28V OUT OF TOLERANCE L8A32
+1000 PLC WRITE IO_ERROR=1 (INIT PLC)
+1001 PLC READ IO_ERROR=2 (INIT PLC)
+1002 PLC WRITE TIME_OUT IO_ERROR=3  (INIT PLC)
+1003 PLC READ TIME_OUT IO_ERROR=4 (INIT PLC)
+1004 PLC MAX TIME_OUT (INIT PLC)
+1005 PLC RESPONSE .NE. TEST STRING (INIT PLC)
+1006 PLC WRITE IO_ERROR=1 (PLC READ)
+1007 PLC READ IO_ERROR=2 (PLC READ)
+1008 PLC WRITE TIME_OUT IO_ERROR=3  (PLC READ)
+1009 PLC READ TIME_OUT IO_ERROR=4 (PLC READ)
+100a PLC MAX TIME_OUT (PLC READ)
+100b PLC RESPONSE = SPEC ERROR CODE (PLC READ)
+100c PLC RESPONSE STRING CODE .NE. 0000 (PLC READ)
+100d PLC CHECKSUM ERROR (PLC READ)
+100e PLC DESTINATION BUFFER ERROR (PLC READ)
+100f PLC WRITE IO_ERROR=1 (PLC WRITE)
+1010 PLC READ IO_ERROR=2 (PLC WRITE)
+1011 PLC WRITE TIME_OUT IO_ERROR=3  (PLC WRITE)
+1012 PLC READ TIME_OUT IO_ERROR=4 (PLC WRITE)
+1013 PLC MAX TIME_OUT (PLC WRITE)
+1014 PLC RESPONSE = SPEC ERROR CODE (PLC WRITE)
+1015 PLC RESPONSE STRING CODE .NE. 0000 (PLC WRITE)
+1016 PLC CHECKSUM ERROR (PLC WRITE)
+:P1C_X:
+0001 UNDEFINED MSG NO. %d
+0002 L1
+0003 L2
+0004 L3
+0005 L7
+0006 L8
+0007 L9
+0008 L10
+0009 LC1
+000a LC2
+000b P1
+000c S1
+000d S2
+000e V1
+000f V2
+0010 V3
+0011 V4
+0012 V5
+0013 DN1
+0014 DN2
+0015 FC AREA A
+0016 FC AREA B
+0017 FC AREA C
+0018 L601
+0019 L602
+001a L603
+001b L604
+001d F2
+001e P2
+001f FC-A%d
+0020 FC
+0021 SR
+0022 AB%d
+0023 A%d
+0024 HPU
+0025 SRH
+0026 SUSPENSION
+0027 FC-V%d
+0090 V1 CABINET
+0091 LC1 CABINET
+0092 LC2 CABINET
+0100 V1 V2 CABINETS
+0101 DN1 L1 CABINETS
+0102 P1 F2 CABINETS
+0103 S1 S2 CABINETS
+0104 V1 V2 V3 CABINETS
+0105 FLIGHT COMPARTMENT
+0106 DN1 P1 CABINETS
+0107 V4 V5 CABINETS
+0108 DN1 P1 F2 CABINETS
+0109 FC DN1 CABINETS
+010a L1 L2 CABINETS
+010b S1 SRH CABINETS
+010c DN1 F2 P2 P1 CABINETS
+010d L600 AREA DN2 CABINET
+010e L1 P1 F2 CABINETS
+010f L1 L8 LC1 LC2 CABINETS
+0120 F2 P1 DN1 S1 CABINETS
+0121 L1 L8 CABINETS
+0122 LC1 LC2 CABINETS
+0123 S1 S2 SRH CABINETS
+0124 FC PROJ DN1 CAB
+0125 S1 F2 CABINETS
+0126 L1 DN1 P1 CABINETS
+0127 P1 F2 LC1 CABINETS
+0128 P1 CABINET
+0129 DN1 CABINET
+012a F2 CABINET
+012b S1 CABINET
+012c P2 CABINET
+012d V1 V2 DN1 CABINETS
+012e F2 P1 P2 L8 CABINETS
+012f IOS AND DEBRIEF STATION
+0130 V4 V5 P1 CABINETS
+0131 P1 P2 F2 CABINETS
+0132 LC1 L8 CABINETS
+0133 LC2 P1 CABINETS
+0134 P1 P2 CABINETS
+0135 L8 P1 CABINETS
+0300 A
+0301 B
+0302 C
+0900 READING
+0901 WRITING
+:P1C_Y:
+0001 AB%d
+0002 A%d
+0003
+0004 PS1
+0005 PS2
+0006 PS3
+0007 PS4
+0008 /%d
+0009 CABINETS
+000a CABINET
+000b CAB
+000c FWDFS1
+000d FWDFS2
+000e FWDRIGHT
+000f FWDLEFT
+0010 AFTRIGHT
+0011 AFTLEFT
+0012 SYSTEM
+:END:
+*********************************************************************
+*
+*   END OF P1 (PLC CV1000) SECTION
+*
+*********************************************************************
+*
+************************************
+*    Avionics Boxes Error Messages
+************************************
+*
+:AVN:
+0001 Air flow sensor fail: %s
+* 8002 %s ON
+0002 %s ON
+0003 %s OFF
+0004 %s FAULT
+:AVN_X:
+0001 Capt PFD & ND
+0002 FCU & F/O CDU
+0003 ECAM Left & Right Displays
+0004 Capt CDU & Acars CDU
+0005 F/O PFD & ND
+0006 Acars & GPWC & Capt FMC
+0007 TCAS & F/O FMC
+0008 Capt FMC
+0009 F/O FMC
+000a Capt CDU
+000b F/O CDU
+000c Left ECAM Display
+000d Right ECAM Display
+000e Capt PFD
+000f Capt ND
+0010 F/O PFD
+0011 F/O ND
+0012 GPWC
+0013 GPWS FAIL
+0014 GPWS OK
+0015 DCU 1 CH A FAIL
+0016 DCU 1 CH A OK
+0017 DCU 1 CH B FAIL
+0018 DCU 1 CH B OK 
+0019 DCU 2 CH A FAIL
+001a DCU 2 CH A OK
+001b DCU 2 CH B FAIL
+001c DCU 2 CH B OK
+001d PFD 1 FAIL
+001e PFD 1 OK
+001f MFD 1 FAIL
+0020 MFD 1 OK
+0021 EICAS PRIMARY FAIL
+0022 EICAS PRIMARY OK
+0023 EICAS SECONDARY FAIL
+0024 EICAS SECONDARY OK
+0025 MFD 2 FAIL
+0026 MFD 2 OK
+0027 PFD 2 FAIL
+0028 PFD 2 OK
+0029 IAPS LEFT AFCS FAIL
+002a IAPS LEFT AFCS OK
+002b IAPS RIGHT AFCS FAIL
+002c IAPS RIGHT AFCS OK
+002d IAPS LEFT FMS FAIL
+002e IAPS LEFT FMS OK
+002f IAPS RIGHT FMS FAIL
+0030 IAPS RIGHT FMS OK
+0031 CDU 1 FAIL
+0032 CDU 1 OK
+0033 CDU 2 FAIL
+0034 CDU 2 OK 
+0035 TCAS FAIL
+0036 TCAS OK
+0037 RTU 1 FAIL
+0038 RTU 1 OK
+0039 RTU 2 FAIL
+003a RTU 2 OK
+003b PILOT FNDMS
+003c COPILOT FNDMS
+003d PSDMS
+003e SG 1
+003f SG 2
+0040 SG 3
+0041 PILOT PFD DISPLAY
+0042 COPILOT PFD DISPLAY
+0043 PILOT NAV DISPLAY
+0044 COPILOT NAV DISPLAY
+0045 PPSD
+0046 SPSD
+:END:
+*
+********************************
+* Weather Radar Error Messages
+********************************
+*
+:WXR:
+0000 WXRP Not Alive
+0001 WXRP 80C186 Foreground Not Completed
+0002 WXRP 320C25 Fail
+0003 WXRP Hardware Scanner Fail
+0004 WXRP Shared Memory Fail
+0005 WXRP ARINC 453 Memory Fail
+0006 WXRP TMS L/S Memory Fail
+0007 WXRP Cloud Table Fail
+0008 WXRP Translation Table Fail
+:END:
+*
+******************************************************
+*          VISUAL SYSTEM error messages
+******************************************************
+:VIS:
+0001 > Visual system is off-line
+0002 > Visual system error %d
+0003 > Visual channel %d traversal not responding
+0004 > Visual channel %d geometry not responding
+0005 > Visual channel %d edge tracker not responding
+0006 > Visual channel %d pixel subsystem not responding
+0007 > Visual channel %d system crash
+0008 > Visual channel %d span processor overflow
+0009 > Visual channel %d calligraphic overload
+:END:
+*
+*
+* I.G. Board Status
+*
+*
+:VI1:
+0001 %s for %s on I.G. %d
+:VI1_X:
+0001 No response
+0002 Unknown state
+0003 Stop
+0004 Halt
+0005 No response from executive
+0006 Bad buffer
+0007 Field stretch
+0008 Calligraphic overload
+0009 Seven eigths full
+000a Overflow
+000b IG crash
+:VI1_Y:
+0001 FDDC
+0002 GEOMETRY
+0003 EDGE TRACKER
+0004 PIXEL SUBSYSTEM
+0005 VIDEO PROCESSOR
+0006 SPAN PROCESSOR
+0007 CHANNEL
+:END:
+*
+*
+* I.G. & Network General Information
+*
+* 
+:VI2:
+0001 %s for I.G. %d
+:VI2_X:
+0001 INVALID OPCODE
+0002 CBUS TIMEOUT
+0003 MULTIPLE CARD RESPONSE
+0004 MC ERROR (visual sharp)
+0005 MEMORY ERROR (visual sharp)
+0006 EXECUTIVE READ TIME
+0007 EXECUTIVE WRITE TIME OUT (visual sharp)
+0008 EXECUTIVE MESSAGE TOO BIG  (visual sharp)
+0009 CDQ MORE THAN HALF FULL (data base download)
+000a TMM FIFO NEVER EMPTY (texture load download)
+000b INVALID FP INTERRUPT (IG iteration mode)
+000c INVALID VP INTERRUPT (IG iteration mode)
+0014 ETH ERR- MISSED INTERRUPT DURING INIT
+0015 ETH ERR- RESET COMMAND FAILED
+0016 ETH ERR- CONFIGURE COMMAND FAILED
+0017 ETH ERR- IA-SETUP COMMAND FAILED
+0018 ETH ERR- FAILURE IN STARTING THE RECEIVE UNIT
+0019 ETH ERR- SCB COMMAND WORD NOT ZERO
+001a ETH ERR- RECEIVE UNIT NEITHER IN 'READY' NOR 'NO RESOURCES'
+001b ETH ERR- RECEIVE UNIT IN NO RESOURCES STATE
+001c ETH ERR- NO POINTER TO FD LIST (BEGIN RFA=FFFF)
+001d ETH ERR- FRAME RECEIVED WITH ERROR
+001e ETH ERR- ILLEGAL COMMAND CODE RECEIVED
+001f ETH ERR- INVALID INDEX IN COMMAND 3 (SPECIAL RQST)
+0020 ETH ERR- INVALID INDEX, BYTE COUNT OR OFFSET IN CMD 4
+0021 ETH ERR- NUMBER OF BYTES RECEIVED < COUNT IN HDR
+0022 ETH ERR- INVALID INDEX, BYTE COUNT OR OFFSET IN CMD 5
+0023 ETH ERR- NEGATIVE BYTE COUNT IN COMMAND 6
+0024 ETH ERR- NEGATIVE BYTE COUNT IN COMMAND 7
+0025 ETH ERR- COMMAND UNIT NEITHER 'IDLE' NOR 'ACTIVE'
+0026 ETH ERR- CX BIT FO SCB STATUS WORD IS SET
+0027 ETH ERR- NO POINTER TO THE CURRENT TCB (BEGIN CBL=FFFF)
+0028 ETH ERR- C BIT OF TCB STATUS NOT SET
+0029 ETH ERR- # OF COLLISIONS EXCEEDS LIMIT
+002a ETH ERR- INSUFFICIENT NUMBER OF TCBs
+002b ETH ERR- INSUFFICIENT NUMBER OF TBDs
+002c ETH ERR- RECEIVE UNIT LEFT THE READY STATE
+002d ETH ERR- POWER BIT OF CSW1 REG OFF
+002e ETH ERR- ETHERNET CU HUNG-UP, CME RE-INITIALIZED
+002f ETH ERR- ETHERNET RU HUNG-UP, CME RE-INITIALIZED
+0030 ETH ERR- DIAGNOSE COMMAND FAILED
+0031 ETH ERR- MC-SETUP FAILED
+0032 ETH ERR- NO CARRIER SENSE SIGNAL
+0033 ETH ERR- LOST THE CLEAR-TO-SEND SIGNAL
+0034 ETH ERR- DMA UNDERRUN
+0035 ETH ERR- RECEIVED SHORT FRAME
+0036 ETH ERR- ILLEGAL ERROR NUMBER
+:END:
+*
+* 
+:VI3:
+0001 RTS - %s
+0002 Visual restart
+:VI3_X:
+0002 Foreground not running
+0004 Foreground not responding
+0008 Invalid CAE header
+0009 Invalid byte count
+000a Invalid opcode
+000b Invalid buffer id
+000c Invalid destination
+000d Unknown IG responding
+000e Invalid byte count from IG
+000f IG not responding
+0011 System crash
+0012 Invalid template file
+0016 Aborted by user request
+0017 Arena full
+0018 Error on write
+0019 Error on read
+001a Error on create
+001c Error allocating memory
+001e Overflow
+001f Invalid address
+0021 Invalid update
+0022 Child process died
+0023 DMC error
+0024 Invalid op-code from DMC
+0025 Invalid op-code from sim. host
+0026 Invalid op-code from RTS
+0027 Asynchronous process not responding
+002a Error loading database into memory
+002b Error initializing memory table
+002c Invalid state
+002d Ethernet read time-out
+002e Badly formed host buffer
+002f Error getting token
+0030 Invalid ethernet buffer size
+0032 Error creating DUP packet
+0033 Error initializing DUP
+0034 Ethernet read time-out
+0035 Ethernet read error
+0036 Error sending buffer
+0037 Ethernet read error
+0038 Database file has invalid format
+0039 Database too big for available I.G. memory
+003a No response from DMC
+003b Error loading database
+003c Error making load blocks
+003d Error making elements
+003e Error downloading database into I.G.
+003f Error finding load blocks
+0040 Error finding DUP block
+0041 Error loading database into memory
+:END:
+*
+*
+:VI6:
+0000 Autocal Offline
+0001 Cannot set VESA graphics mode(0x103) using DSP function
+0002 Memory allocation error (heap full)
+0003 Cannot open history file
+0004 Cannot open parameters file AUTOCAL.INI
+0005 Cannot open data file SLIDE.APC
+0006 Cannot open or create PGG file.
+0007 Cannot open or create LOG file
+0008 Could not write all projector geometry sequences in 'GEOMSEQ.APC'.
+0009 Could not read all projector geometry sequences from 'GEOMSEQ.APC'
+000a Invalid G2_CONTRAST_CHECKSUM in the AUTOCAL.INI.
+000b Invalid error number.
+000c Field missing in the error file.
+000d Not able to open the help file.
+0065 Cannot load file(s) "DSP.TAG" or "RS170.CDT"  to DSP card.
+0066 DSP card not running.
+0067 Palette files 'PALETTE.DFT/0/1' not found.
+0068 Camera sync time-out: The pulses was not detected within one second.
+0069 The video frame grabber board is not responding.
+006a The frame grabber cannot create a new image buffer.
+006b DSP board internal problem.
+006c Cannot perform a frame grab.
+006d Incompatible frame grabber software version.
+006e DSP function timeout occurs while processing an image.
+00c9 Received data while buffer was full.
+00ca Overrun: attempt to start conversion before last one completed.
+00cb Channel not enabled.
+00cc No buffer defined to receive data.
+00cd Bad channel specified.
+00ce Adc pacing not enabled.
+00cf Unknown ADC error code.
+012d Dot invalid (noise)  Proj:%d Gun:%s Mode:%s
+012e Slide dot not found
+012f Blend zone slide dot not found
+0130 Cannot find proper focus threshold  Proj:%d Gun:%s Mode:%s
+0131 Cannot locate a projector dot  Proj:%d Gun:%s Mode:%s
+0132 Cannot center the dot  Proj:%d Gun:%s Mode:%s
+0133 Projector blend zone dot not found.  Proj:%d Gun:%s Mode:%s
+0191 Some slide projector dots have invalid or not initialized position.
+0192 Attempt to move mirror out of bounds in YAW direction
+0193 Attempt to move mirror out of bounds in PITCH direction
+0194 No reading from the gimbals pitch and yaw pots.
+0195 The Yaw pot value indicates mirror is out of HARDWARE limit.
+0196 The Pitch pot value indicates mirror is out of HARDWARE limit.
+0197 The Yaw and/or Pitch pots reading are invalid.
+0198 Not able to acquired the pots to degree parameters.
+0199 Not able to acquired the pixel to degree parameters.
+019a YAW Potentiometer Offset not Adjusted.
+019b PITCH Potentiometer Offset not Adjusted
+01f5 Slide projector functionality test failed.
+01f6 The slide projector functionality test FAILED to turn ON.
+01f7 The slide projector functionality test FAILED to turn OFF.
+01f8 The slide projector light bulb doesn't light up.
+0259 LVOS hardware test error.  Proj:%d Gun:%s Mode:%s
+025a Background light level or Gun contrast too high.
+025b Cannot start calibration, Too much background light inside cockpit.
+025c The LVOS intensity reading is too low.  Proj:%d Gun:%s Mode:%s
+025d Can not determined visual iteration rate.
+02bd Bad on-board reference voltage.
+02be GUN turn-on time too slow  Proj:%d Gun:%s Mode:%s
+02bf GUN turn-off time too slow  Proj:%d Gun:%s Mode:%s
+02c0 Gun light affecting another LSC sensor  Proj:%d Gun:%s Mode:%s
+02c1 GUN light not detected by the LSC sensor  Proj:%d Gun:%s Mode:%s
+02c2 LSC sensor voltage too high when guns are OFF  Proj:%d Gun:%s Mode:%s
+02c3 Bad LSC version.
+03e9 No contrast intensity change.  Proj:%d Gun:%s Mode:%s
+03ea Contrast parameters are not initialize.
+03eb GAMMA lookup table (interpolation error)
+03ec Bad GAMMA lookup table file format.
+03ed GAMMA default lookup table format.
+03ee LSC value out of lookup table limits (Gamma).
+03ef Not enough sampling LSC values when calibrating the LSC (Gamma).
+03f0 Cannot create LSC lookup table, not enough data (Gamma).
+03f1 No convergence predictions gains in the init file.
+03f2 Problem to acquired the Autocal prediction gains.
+03f3 Unstable data  Proj:%d Gun:%s Mode:%s
+03f4 Stagnant data  Proj:%d Gun:%s Mode:%s
+03f5 Not enough data  Proj:%d Gun:%s Mode:%s
+03f6 Invalid G2 intensity level  Proj:%d Gun:%s Mode:%s
+03f7 G2 learn had not been done
+03f8 Can not adjust G2  Proj:%d Gun:%s Mode:%s
+03f9 Not able to load the GAMMA lookup table
+03fa Geometry dac gain calculation.
+03fb GAMMA calibration acquired invalid data  Proj:%d Gun:%s Mode:%s
+03fc Can't converge G2/Contrast dac value  Proj:%d Gun:%s Mode:%s
+03fd Detected ambient light in cockpit (lsc detection).
+03fe Contrast limit reached.  Proj:%d Gun:%s Mode:%s
+03ff CONTRAST CLP Unstable data  Proj:%d Gun:%s Mode:%s
+0401 Can't get dot focus information.  Proj:%d Gun:%s Mode:%s
+0402 Not enough dot sampling for focus.  Proj:%d Gun:%s Mode:%s
+0403 Wrong focus number of samples
+0404 Internal computation error
+0405 Can't detect a line inside the image.  Proj:%d Gun:%s Mode:%s
+0406 Can't detect a line inside the image  Proj:%d Gun:%s Mode:%s
+0407 Can't detect a line inside the image  Proj:%d Gun:%s Mode:%s
+0408 Can't detect three slide dots inside image  Proj:%d Gun:%s Mode:%s
+0409 Projector dot not align to slide reference.  Proj:%d Gun:%s Mode:%s
+040a Camera image not blanked after 2 seconds delay  Proj:%d Gun:%s Mode:%s
+040b RTS change intensity command has no effect  Proj:%d Gun:%s Mode:%s
+040c Can not detect testpattern #0  Proj:%d Gun:%s Mode:%s
+040d Can't detect bitmap zone on the blendzone edge  Proj:%d Gun:%s Mode:%s
+040e Can't detect bitmap zone.  Proj:%d Gun:%s Mode:%s
+040f Unstable ref. while learning contrast raster  Proj:%d Gun:%s Mode:%s
+044d EIS version too old.
+044e Bad equation received from READ_ACTIVE_EQUATION.
+044f RGB Geometry DAC X limit  Proj:%d Gun:%s Mode:%s
+0450 RGB Geometry DAC Y limit  Proj:%d Gun:%s Mode:%s
+0451 Not able to load EIS data file from disk.
+04b1 Ethernet not active, can not continue gamma
+04b2 Bad RTS version, can not continue.
+04b3 RTS Autocal control not set.
+04b4 RTS unblank not functional.
+04b5 The visual did not change to 50Hz rate as requested.
+07d1 Time-out waiting for input
+07d2 Time-out waiting for output
+07d3 Port not enabled
+07d4 No buffer available
+07d5 Bad port specified. Must be 0 to 3.
+07d6 Bad buffer size code specified.  Must be 0 to 11.
+07d7 Bad parity code specified. Must be 0 to 7.
+07d8 Bad stop bits code specified. Must be 0 to 1.
+07d9 Bad word length code specified. Must be 0 to 3.
+07da Bad baud rate code. Must be 0 to 9.
+07db Unknown error
+0835 Checksum error
+0836 Command not implemented
+0837 Buffer overflow
+0838 Parity error
+0839 Wrong message length received
+083a Wrong length of data packet for bit-mapped write
+083b Invalid format
+083c Limit exceeded
+083d System not in mode specified in command
+083e Illegal DAC number
+083f Gun off
+0840 Illegal plane number
+0841 Illegal value in message
+0842 Illegal origin with command [09]
+0843 Mac could not open specified file in command
+0844 Illegal system number
+0845 No response or bad response from EIS computer.
+0899 Framing error detected by the LSC controller
+089a Parity error detected by the LSC controller
+089b Time-out error detected by the LSC controller
+089c Block error detected by the LSC controller
+089d RX time-out error detected by the LSC controller
+089e Power-up error detected by the LSC controller
+089f Bad reception block sequence
+08a0 Bad reception checksum
+08a1 reception time-out
+08fc Undefined error !
+08fd Invalid handle number (Driver error).
+08fe No interfaces of specified class found (Driver error).
+08ff No interfaces of specified type found (Driver error).
+0900 No interfaces of specified number found (Driver error).
+0901 Bad packet type specified (Driver error).
+0902 This interface does not support multicast (Driver error).
+0903 This packet driver cannot terminate (Driver error).
+0904 An invalid receiver mode was specified (Driver error).
+0905 Operation failed because of insufficient space (Driver error).
+0906 The type had previously been accessed, and not released (Driver error).
+0907 The command was out of range, or not implemented (Driver error).
+0908 The packet couldn't be sent, usually hardware error (Driver error).
+0909 Address couldn't be changed (Driver error)
+090a Hardware address has bad length or format (Driver error).
+090b Couldn't reset interface, more that one handle open (Driver error).
+0960 Ethernet has not been initialized.
+0961 Ethernet driver not present.
+0962 Transmit packet too large.
+0963 Invalid filter mode request.
+09c4 Failure receiving packet.
+09c5 Failure transmitting packet.
+09c6 Trying to transmit before previous transmission completed.
+09c7 Zero length packet received.
+09c8 Time-out waiting for packet from SGI.
+0a28 Wrong acknowledge opcode received from SGI.
+0a29 Wrong acknowledge data received from SGI.
+0a2a Wrong configuration switch number returned from SGI.
+0a2b Wrong configuration switch value returned from SGI.
+0a2c Wrong Visual Feedback opcode returned from SGI.
+0a2d Wrong DATABASE name returned from SGI.
+0c9b Autocal re-start
+:VI6_X:
+0001 Red
+0002 Green
+0003 Blue
+0004 RGB
+:VI6_Y:
+0001 Dual raster
+0002 Calligraphic
+:END:
+*
+*
+**************
+* EIS        *
+**************
+:VI7:
+0000 Ground Fault  Proj:%d  Zone:%s
+0001 Regulator Fault  Proj:%d  Zone:%s
+0002 Line Voltage Fault  Proj:%d  Zone:%s
+0003 Line Frequency Fault  Proj:%d  Zone:%s
+0004 Soft Fault  Proj:%d  Zone:%s
+0005 Unregulated Fault  Proj:%d  Zone:%s
+0006 15v Comp Fault  Proj:%d  Zone:%s
+0007 Remote AC  Proj:%d  Zone:%s
+0008 Main Circuit Breaker  Proj:%d  Zone:%s
+0009 ESU Interlock  Proj:%d  Zone:%s
+0064 Short fault  Proj:%d  Zone:%s
+0065 Low Current Fail  Proj:%d  Zone:%s
+0066 Overvoltage fault  Proj:%d  Zone:%s
+0067 Dropout fault  Proj:%d  Zone:%s
+0068 AC Fault  Proj:%d  Zone:%s
+0069 No AC Fault  Proj:%d  Zone:%s
+006a Overtemp fault  Proj:%d  Zone:%s
+006b Undertemp fault  Proj:%d  Zone:%s
+006c Regulator Cycle  Proj:%d  Zone:%s
+006d Regulator Cycle On  Proj:%d  Zone:%s
+006e Regulator Cycle Off  Proj:%d  Zone:%s
+006f Magnetic Down  Proj:%d  Zone:%s
+0070 Faulting condition  Proj:%d  Zone:%s
+0071 PHU 900 Volt Pwr Supply Fail  Proj:%d  Zone:%s
+00c8 Interlock    Proj:%d  Zone:%s
+00c9 Lost PIC Communication  Proj:%d  Zone:%s
+00ca PHU Control Module Power Sw  Proj:%d  Zone:%s
+00cb ESU Control Module CKT Brkr  Proj:%d  Zone:%s
+00cc 5 Volt PHU Power Supply  Proj:%d  Zone:%s
+00cd 15 Volt PHU Power Supplies  Proj:%d  Zone:%s
+00ce ESU System Power Switch  Proj:%d  Zone:%s
+00cf PHU System Power Switch  Proj:%d  Zone:%s
+00d0 RACU LVPS Enable  Proj:%d  Zone:%s
+00d1 LVPS Enable  Proj:%d  Zone:%s
+00d2 ESU High Voltage Power Sw  Proj:%d  Zone:%s
+00d3 RACU HVPS Enable  Proj:%d  Zone:%s
+00d4 High Voltage Enable  Proj:%d  Zone:%s
+012c ISR Failure  Proj:%d  Zone:%s
+012d H Sync Missing  Proj:%d  Zone:%s
+012e V Sync Missing  Proj:%d  Zone:%s
+012f R/C Problem  Proj:%d  Zone:%s
+0130 Blanking Signal Problem  Proj:%d  Zone:%s
+0131 H Sync Out Of Range  Proj:%d  Zone:%s
+0132 V Sync Out Of Range  Proj:%d  Zone:%s
+0133 H Count Error  Proj:%d  Zone:%s
+0134 Clock Limit Auto Adjust  Proj:%d  Zone:%s
+0135 Clock Limit Adjustment Error  Proj:%d  Zone:%s
+0136 Cal Dot Spacing Error  Proj:%d  Zone:%s
+0137 Cal Exposure Time Error  Proj:%d  Zone:%s
+0138 RACU LVPS Enabled  Proj:%d  Zone:%s
+0139 PHU Sys Power Switch Enabled  Proj:%d  Zone:%s
+013a ESU Sys Power Switch Enabled  Proj:%d  Zone:%s
+013b 900 Volt Failure  Proj:%d  Zone:%s
+013c X Deflection Under Temp  Proj:%d  Zone:%s
+013d Y Deflection Under Temp  Proj:%d  Zone:%s
+013e X_Deflection Over Temp  Proj:%d  Zone:%s
+013f Y_Deflection Over Temp  Proj:%d  Zone:%s
+0140 LVPS Failure  Proj:%d  Zone:%s
+0141 RACU HVPS Enabled  Proj:%d  Zone:%s
+0142 ESU/PHU HV Switches Enabled  Proj:%d  Zone:%s
+0143 Control Module Test Mode  Proj:%d  Zone:%s
+0144 HVPS Enabled  Proj:%d  Zone:%s
+0145 33K Volts Low  Proj:%d  Zone:%s
+0146 System Standby  Proj:%d  Zone:%s
+0147 H Integrator Error  Proj:%d  Zone:%s
+0148 V Integrator Error  Proj:%d  Zone:%s
+0149 X Not Moving  Proj:%d  Zone:%s
+014a Y Not Moving  Proj:%d  Zone:%s
+014b X Deflection Failure  Proj:%d  Zone:%s
+014c Y Deflection Failure  Proj:%d  Zone:%s
+014d Cal. Position Stationary  Proj:%d  Zone:%s
+014e Cal X Posn - Defl Mismatch  Proj:%d  Zone:%s
+014f Cal Y Posn - Defl Mismatch  Proj:%d  Zone:%s
+0150 Cal. Error Detected  Proj:%d  Zone:%s
+0151 Raster or Cal. Sweep Fail  Proj:%d  Zone:%s
+0152 G2 Enabled  Proj:%d  Zone:%s
+0153 Retrace over voltage  Proj:%d  Zone:%s
+01f4 G2 Values  Proj:%d  Zone:%s
+01f5 G2 Base Values  Proj:%d  Zone:%s
+01f6 Contrast Values  Proj:%d  Zone:%s
+01f7 Guns Off  Proj:%d  Zone:%s
+01f8 G2/Contrast Limits  Proj:%d  Zone:%s
+01f9 LVPS Enabled on RACU  Proj:%d  Zone:%s
+01fa HVPS Enabled on RACU  Proj:%d  Zone:%s
+01fb Serial Comm Termination  Proj:%d  Zone:%s
+01fc Dots Enabled On Int Gen  Proj:%d  Zone:%s
+:VI7_X:
+0001 ESU AC Power
+0002 Regulator
+0003 Switch enable
+0004 Head status
+0005 Area not used
+0006 Obvious check
+:END:
+*
+*
+:REH:
+0000 [General][%s] %s
+0001 [Left I/O Controller][%s] %s
+0002 [Left Emulator][%s] %s
+0003 [Right I/O Controller][%s] %s
+0004 [Right Emulator][%s] %s
+0005 [Host][%s] %s
+:REH_X:
+0000 General
+0001 acars_8086.c
+0002 cae_extensions.c
+0003 csoft.c
+0004 csoft_peg.c
+0005 csoft_queue.c
+0006 csoft_snap.c
+0007 ioc_handler.c
+0008 PegA429.c
+0009 pegasus8086.c
+000A rs485_io.c
+000B PegIocomarea.c
+000C real_clock8086.c
+000D rhrb_ext.c
+000E rhrb_rehpar.c
+000F rhrb_rehsrv.c
+0010 shipyrh_discr.c
+0011 shipyrh_hrioeth.c
+0012 shipyrh_hrioshm.c
+0013 shipyrh_hrioutils.c
+0014 shipyrh_hriomap.c
+0015 shipyrh_msgrep.c
+0016 shipyrh_rbtypes.c
+0017 shipyrh_rbhstsrv.c
+0018 trace_util.c
+0019 shipyrh_lbhrio.c
+001a bypass.c
+001b emul_cmd.c
+001c exception.c
+001d get_duration_min_max.c
+001e intro.c
+001f jmptab.c
+0020 lldiv.asm
+0021 llrem.asm
+0022 llshl.asm
+0023 llshr.asm
+0024 load_bin.c
+0025 load_ndb.c
+0026 peg_timer_card.c
+0027 process_csoft.c
+0028 recherche.c
+0029 routines_lr2.c
+002a testamd.c
+002b ulldiv.asm
+002c ullrem.asm
+002d ullshr.asm
+*
+* Message Table For The 'GENERAL' Module
+*
+:REH_0000_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'ACARS_8086.C' Module
+*
+:REH_0001_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'CAE_EXTENSIONS.C' Module
+*
+:REH_0002_Y:
+0000 Default Message %d %d %d %d %d
+0001 Stop alarm failed. Time does not exist.
+0002 Max sharemem reached. Cannot create.
+0003 Failed to create the sharemem space.
+0004 Failed to create the sharemem mapping.
+0005 Failed to map to the sharemem space.
+0006 Sharemem does not exist, creating...
+0007 Unmapping the shared memory...
+0008 Trace file not found. No trace taken.
+0009 Trace file format %d not supported.
+000A Failed to create trace file. (Err %d)
+000B Trace file written successfully.
+000C Logical name does not have a value.
+000D Logical name limit exceeded.(Max %d).
+000E Failed to open the logicals file.
+*
+* Message Table For The 'CSOFT.C' Module
+*
+:REH_0003_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'CSOFT_PEG.C' Module
+*
+:REH_0004_Y:
+0000 Default Message %d %d %d %d %d
+0001 Error retrieving Csoft from Host
+*
+* Message Table For The 'CSOFT_QUEUE.C' Module
+*
+:REH_0005_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'CSOFT_SNAP.C' Module
+*
+:REH_0006_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'IOC_HANDLER.C' Module
+*
+:REH_0007_Y:
+0000 Default Message %d %d %d %d %d
+0001 READRAM command not supported.
+0002 BITE command not supported.
+0003 Front panel LED ON.
+0004 Front panel LED OFF.
+0005 DIP Command not supported: 0x%x.
+0006 Bad poll type %x at addr %x in GBLMEM.
+0007 Block # out of range: %d.
+0008 Block receiver overflow.
+*
+* Message Table For The 'PEGA429.C' Module
+*
+:REH_0008_Y:
+0000 Default Message %d %d %d %d %d
+0001 A429 logical bad. Using default filename.
+0002 Data file not found. Creating default...
+0003 Failed to open data file.
+0004 Card %d failed to initialize. Using HRIO.
+0005 RX channel added: Card=%d Bus=%d Speed=%d
+0006 TX channel added: Card=%d Bus=%d Speed=%d
+0007 Parser L%d:Param %d not found.
+0008 Parser L%d:Param 1 must be 'R' or 'T'
+0009 Parser L%d:Param %d value is invalid.
+000A Parser L%d:Param 2 'NONE' not pairable.
+000B Parser L%d:Param 2 type bad. Using HRIO.
+000C Parser L%d:Param 5 speed bad. Using LOW.
+*
+* Message Table For The 'PEGASUS8086.C' Module
+*
+:REH_0009_Y:
+0000 Default Message %d %d %d %d %d
+0003 Discretes are hard-coded.
+0002 Got 0x55 signal from AMD.
+0001 Waiting for 0x55 signal from AMD...
+0004 Waiting for 'I Want To Feed' from AMD...
+0005 Got 'I Want To Feed' signal from AMD.
+0006 Waiting for 'Badd Badd' from AMD...
+0007 Got 'Badd Badd' from AMD.
+0008 Waiting for 'Bad Food' from AMD...
+0009 Got 'Bad Food' from AMD.
+000A Booting 8086...
+000B Emulator heartbeat failure. (%d secs.)
+000C Failed to initialize ARINC cards.
+000D IOC up and running. Will run for %d secs.
+000E IOC up and running. Will run forever.
+000F IOC stopped after running %d millis.
+0010 Run Tracedump, then <enter> to exit...
+0011 Host connected. Wait %ds for discr...
+0012 Got Host discretes. Sending POWERON...
+0013 Host discrete timeout. Sending POWERON...
+0014 Failed to retrieve the config file path.
+0015 Host disconnect for over %ds. Exiting...
+0016 Waiting for 'Emulator Ready' signal...
+0017 Process terminated abnormally.
+*
+* Message Table For The 'RS485_IO.C' Module
+*
+:REH_000A_Y:
+0000 Default Message %d %d %d %d %d
+0001 Failed to open ISB I/O device (%d).
+0002 Failed to init ISB I/O device (%d).
+0003 Failed to inititialize ISB module.
+0004 Failed to translate ISB logical.
+0005 Failed to ID the target process.
+0006 ISB - Left FMC detected.
+0007 ISB - Right FMC detected.
+*
+* Message Table For The 'PEGIOCOMAREA.C' Module
+*
+:REH_000B_Y:
+0000 Default Message %d %d %d %d %d
+0001 Finding IOC table start sequence...
+0002 IOC table found at 0x%x.
+0003 HIGH priority interrupt issued to 8086.
+*
+* Message Table For The 'REAL_CLOCK8086.C' Module
+*
+:REH_000C_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'RHRB_EXT.C' Module
+*
+:REH_000D_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'RHRB_REHPAR.C' Module
+*
+:REH_000E_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'RHRB_REHSRV.C' Module
+*
+:REH_000F_Y:
+0000 Default Message %d %d %d %d %d
+0001 Invalid rehost device specified.
+0002 Failed to map shared memory.
+0003 Failed to unmap shared memory.
+0004 Error reading request from HRIO.
+0005 Error writing request to HRIO.
+0006 Max remote err(%d). Server disabled.
+0007 Max local err(%d). Server disabled.
+0008 Heartbeat stop(%dms). Remote disconnect.
+0009 Heartbeat stop(%dms). Local disconnect.
+000A Request queue reset due to overflow.
+*
+* Message Table For The 'SHIPYRH_DISCR.C' Module
+*
+:REH_0010_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'SHIPYRH_HRIOETH.C' Module
+*
+:REH_0011_Y:
+0000 Default Message %d %d %d %d %d
+0001 Could not find logical requested (%d).
+0002 The target process was not determined.
+0003 Failed to open I/O device (%d).
+0004 Failed to initialize I/O device (%d).
+0005 Failed to load the logicals file (%d).
+0006 Errors occured allocating buffer memory.
+0007 Lost B frame(BID=%d,ID=%d,R=%d,N=%d,T=%d)
+0008 Lost F frame(FID=%d,ID=%d,R=%d,N=%d,T=%d)
+0009 Discarding F frame & retry.(N=%d,ExpN=%d)
+000A Discarding F frame.
+000B Discarding B frame.
+000C Source of packet cannot be identifed.
+000D Failed to poll I/O for inbound data (%d).
+000E Failed to write outbound data to I/O(%d).
+000F Acknowledge command received by FMC.
+0010 Acknowledge type command unkmown.
+0011 Received ARINC buffer data.
+0012 Received DISCRETE buffer data.
+0013 Received ACK data.
+0014 Received CSOFT buffer data.
+0015 Received DEBUG buffer data.
+0016 Received ERROR buffer data.
+0017 Received AUTOTHROTTLE buffer data.
+0018 Received LB/HRIO buffer data.
+0019 Received HRIOCMD buffer data.
+001a Received HRIO heartbeat command.
+001b Received HRIO power command.
+001c Received HRIO command POWER ON at %ds.
+001d Received HRIO command POWER OFF at %ds.
+001e HRIO command POWER OFF set/sent at %ds.
+001f HRIO command POWER ON set/sent at %ds.
+0020 Received an invalid HRIO cmd POWER: %d
+0021 Received an invalid HRIO command: %d
+0022 Heartbeat started. Resuming HRIO at %ds.
+0023 Heartbeat stopped. Halting HRIO at %ds.
+0024 Unknown data type extracted (%d).
+0025 Sync error corrected (Buf=%d, Packet=%d).
+0026 Container full, can't add ACK ARINC (%d).
+0027 Container full, can't add ACK Discr (%d).
+0028 Container full, can't add ARINC (%d).
+0029 Container full, can't add Discrete (%d).
+002a Container full, can't add Csoft (%d).
+002b Container full, can't add Debug (%d).
+002c Container full, can't add Error (%d).
+002d Container full, can't add Auto-Thr (%d).
+002e Container full, can't add LB/HRIO (%d).
+002f Container full, can't add Heartbeat (%d).
+0030 Container full, can't add Power (%d).
+0031 Packed load of %d exceed maximum of %d.
+0032 Received ACK CSOFT buffer data.
+0033 Container full, can't add Ack Csoft (%d).
+*
+* Message Table For The 'SHIPYRH_HRIOSHM.C' Module
+*
+:REH_0012_Y:
+0000 Default Message %d %d %d %d %d
+0001 Could not find logical requested (%d).
+0002 The target process was not determined.
+0003 Errors occured allocating buffer memory.
+0004 Failed to unmap shared memory.
+0005 Failed to create/map all HRIO semaphores.
+*
+* Message Table For The 'SHIPYRH_HRIOUTILS.C' Module
+*
+:REH_0013_Y:
+0000 Default Message %d %d %d %d %d
+0001 Failed to allocate memory requested.
+0002 Failed to add element to mem manage list.
+0003 Failed to spawn thread.
+0004 Failed to kill thread. (Error %d)
+0005 Failed to destroy semaphore. (Error %d)
+0006 Failed to wait on semaphore. (Error %d)
+0007 Failed to signal semaphore. (Error %d)
+*
+* Message Table For The 'SHIPYRH_HRIOMAP.C' Module
+*
+:REH_0014_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'SHIPYRH_MSGREP.C' Module
+*
+:REH_0015_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'SHIPYRH_RBTYPES.C' Module
+*
+:REH_0016_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'SHIPYRH_RBHSTSRV.C' Module
+*
+:REH_0017_Y:
+0000 Default Message %d %d %d %d %d
+0001 Failed to map shared memory.
+0002 Failed to unmap shared memory.
+0003 Max errors %d. Restarted server.
+0004 Request overflow, queue reset.
+0005 Failed to write client req to HRIO
+0006 Failed to read rehost resp from HRIO
+*
+* Message Table For The 'TRACE_UTIL.C' Module
+*
+:REH_0018_Y:
+0000 Default Message %d %d %d %d %d
+0001 Failed to map TRACE_ARINC shared memory.
+0002 Failed to open a trace file for writing.
+0003 Failed to open the trace hook sharemem.
+0004 Failed to open the trace hook dump file.
+0005 Trace hook type format '%d' unsupported.
+0006 Trace hook file written successfully.
+0007 Trace function file written successfully.
+0008 Trace function map file parameter bad.
+0009 Failed to open the tracefun map file.
+000A Trace function tab entries exceeds %d.
+000B Trace function write file parameter bad.
+000C Failed to open the tracefun output file.
+000D Trace function format '%d' unsupported.
+*
+* Message Table For The 'SHIPYRH_LBHRIO.C' Module
+*
+:REH_0019_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'BYPASS.C' Module
+*
+:REH_001A_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'EMUL_CMD.C' Module
+*
+:REH_001B_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'EXCEPTION.C' Module
+*
+:REH_001C_Y:
+0000 Default Message %d %d %d %d %d
+0001 Error: EXCEPTION_ACCESS_VIOLATION
+0002 Error: EXCEPTION_BREAKPOINT
+0003 Error: EXCEPTION_DATATYPE_MISALIGNMENT
+0004 Error: EXCEPTION_FLT_DENORMAL_OPERAND
+0005 Error: EXCEPTION_FLT_DIVIDE_BY_ZERO
+0006 Error: EXCEPTION_FLT_INEXACT_RESULT
+0007 Error: EXCEPTION_FLT_INVALID_OPERATION
+0008 Error: EXCEPTION_FLT_OVERFLOW
+0009 Error: EXCEPTION_FLT_STACK_CHECK
+000A Error: EXCEPTION_FLT_UNDERFLOW
+000B Error: EXCEPTION_INT_DIVIDE_BY_ZERO
+000C Error: EXCEPTION_INT_OVERFLOW
+000D Error: EXCEPTION_PRIV_INSTRUCTION
+000E Error: Exception not determined
+*
+* Message Table For The 'GET_DURATION_MIN_MAX.C' Module
+*
+:REH_001D_Y:
+0000 Default Message %d %d %d %d %d
+0001 Mechanical slot ID:%d
+0002 Mechanical slot ID is invalid (-1)
+0003 L & R Cabin. Different Mech slot ID:%d %d
+0004 Partition duration (max):0x%x
+0005 Partition duration (min):0x%x
+*
+* Message Table For The 'INTRO.C' Module
+*
+:REH_001E_Y:
+0000 Default Message %d %d %d %d %d
+0001 Waiting for signal from 8086....
+0002 Ok.
+0003 Failed allocating Emul msg Shm.
+0004 Specify Load File as argument.
+0005 Process priority = %d
+0006 Failed allocating CSOFT Shm.
+0007 Failed allocating PART_TABLE Shm.
+0008 CPM Memory Allocation.
+0009 Failed allocating GBLMEM Shm.
+000A Failed allocating INST_EEPROM Shm.
+000B Failed allocating DATA_EEPROM Shm.
+000C Failed allocating SRAM0 Shm.
+000D Failed allocating SRAM1 Shm.
+000E Failed allocating PSCS Shm.
+000F Failed allocating SCC Shm.
+0010 Correcting CPM Memory addresses.
+0011 Updating Mapping Tables.
+0012 Failed allocating IOC's PartTbls Shm.
+0013 Copying NRB2 to NRB1.
+0014 Initializing Jump Table.
+0015 Performing Pblock Optimizations.
+0016 Performing Jmp/call Optimizations.
+0017 Jmp-jmpil with no loop at %x.
+0018 Replacing OpCds with routines addrs.
+0019 Running ByPass.
+001a CPM waits Csoft Command...
+001b CPM POWERED ON
+001c CPM KILLED
+001d CPM Exception
+001e Crc Parameters Table Not Found
+001f EDC crc error
+0020 CPM Set Client
+0021 CPM LOAD DB
+0022 CPM LOAD SRAM
+0023 CPM SAVE SRAM
+*
+* Message Table For The 'JMPTAB.C' Module
+*
+:REH_001F_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'LLDIV.ASM' Module
+*
+:REH_0020_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'LLREM.ASM' Module
+*
+:REH_0021_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'LLSHL.ASM' Module
+*
+:REH_0022_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'LLSHR.ASM' Module
+*
+:REH_0023_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'LOAD_BIN.C' Module
+*
+:REH_0024_Y:
+0000 Default Message %d %d %d %d %d
+0001 sldb_get_ph_addr: file_id %d not found
+0002 FilesToLoad not opened
+0003 Unknown file type. Not processed.
+0004 No valid partition ID (ID>63)
+0005 No valid map table size
+*
+* Message Table For The 'LOAD_NDB.C' Module
+*
+:REH_0025_Y:
+0000 Default Message %d %d %d %d %d
+0001 NDB CRC is 0x%x.
+0002 Dumping mem (%d bytes) in dump file.
+0003 Unable to open c:\temp\dump.map file.
+0004 Unrecognized file type.
+0005 Unrecognized block type %c
+0006 File not extracted properly.
+*
+* Message Table For The 'PEG_TIMER_CARD.C' Module
+*
+:REH_0026_Y:
+0000 Default Message %d %d %d %d %d
+0001 RtAttachInterruptVector (Err=%d)(Hndl=%d)
+0002 Timer Card not present.
+*
+* Message Table For The 'PROCESS_CSOFT.C' Module
+*
+:REH_0027_Y:
+0000 Default Message %d %d %d %d %d
+0001 CPM FREEZED %d
+0002 CPM POWERED ON
+0003 CPM POWERED OFF
+0004 CPM KILLED
+0005 CPM UnRecognized Csoft Cmd 0x%x
+0006 CPM SET CLIENT
+*
+* Message Table For The 'RECHERCHE.C' Module
+*
+:REH_0028_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'ROUTINES_LR2.C' Module
+*
+:REH_0029_Y:
+0000 Default Message %d %d %d %d %d
+0001 CPM UNFREEZED %d %x %x
+0002 PC=%x (rsp=%x) RESET CPM at %d us
+0003 CPS=%x TMR=%x ID:%x [%x]
+0004 Waiting for signal from 8086...
+0005 CPM exits (timeout expired)
+0006 Ok.
+0007 RESTART CPM at %d us
+0008 %d us : PC=%x (rsp=%x) RESET CPM
+0009 CPS=%x TMR=%x ID:%x [%x]
+*
+* Message Table For The 'TESTAMD.C' Module
+*
+:REH_002A_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'ULLDIV.ASM' Module
+*
+:REH_002B_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'ULLREM.ASM' Module
+*
+:REH_002C_Y:
+0000 Default Message %d %d %d %d %d
+*
+* Message Table For The 'ULLSHR.ASM' Module
+*
+:REH_002D_Y:
+0000 Default Message %d %d %d %d %d
+:END:
+*
+:SGA:
+0001 FATAL ERROR: Displays NOT available
+0002 HRGCOM Can not translate logical names
+0003 HRGCOM Can not Open File file
+0004 HRGCOM Can not Read File file
+0005 HRGCOM Can not Load Dynamic Offsets
+0006 HRGCOM Invalid data at display: %d label: %d
+0007 HRGCOM Invalid number of displays (%d)
+*
+0018 Display %d NOT available: RAP holds
+8018 Display %d     available: RAP released
+*
+0109 Display %d TimeOut received
+8109 Display %d TimeOut cleared
+010a Display %d XNGC overflow %d
+810a Display %d XNGC overflow cleared
+010b Display %d CPU(%x) counter stopped
+810b Display %d CPU counters back active
+010c Display %d CPU(%x) Checksum error
+810c Display %d Checksum errors cleared
+:END:
+*
+* SimSoft error messages
+*
+:SS:
+0001 line %d - cmd %x - Total errors %d FMC %d
+:SS_X:
+0001 <SimSoft_X>
+:SS_Y:
+0001 <SimSoft_Y>
+:END:
+*
+*
